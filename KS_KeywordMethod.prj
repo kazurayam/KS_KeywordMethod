@@ -6,6 +6,7 @@
    <UUID>bd0549b7-0d4f-4325-a365-450b1c8cde2b</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/KS_KeywordMethod/KS_KeywordMethod.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
