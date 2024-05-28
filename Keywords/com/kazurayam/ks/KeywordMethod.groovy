@@ -6,11 +6,11 @@ import com.kms.katalon.core.annotation.Keyword
 
 class KeywordMethod implements Comparable<KeywordMethod> {
 
-	private String application
+	private ApplicationUnderTestType application
 	private Method method
 	private Keyword keyword = null
 
-	KeywordMethod(String application, Method method) {
+	KeywordMethod(ApplicationUnderTestType application, Method method) {
 		Objects.requireNonNull(application)
 		Objects.requireNonNull(method)
 		this.application = application
@@ -24,7 +24,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		return keyword != null
 	}
 
-	String application() {
+	ApplicationUnderTestType application() {
 		return this.application
 	}
 
@@ -36,13 +36,24 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		return (isAnnotatedWithKeyword()) ? keyword.keywordObject() : ""
 	}
 
+	String javadocUrl() {
+		StringBuilder sb = new StringBuilder()
+		sb.append("https://api-docs.katalon.com/com/kms/katalon/core/")
+		sb.append(application().getUrlComponent())
+		sb.append("/keyword/")
+		sb.append(application().getClassName())
+		sb.append(".html")
+		sb.append("#")
+		sb.append(methodName())
+	}
+
 	@Override
 	boolean equals(Object obj) {
 		if (!(obj instanceof KeywordMethod)) {
 			return false
 		}
 		KeywordMethod other = (KeywordMethod)obj
-		// ignore the difference of method signagure
+		// ignore the difference of method signature
 		return this.application() == other.application() &&
 				this.methodName() == other.methodName() &&
 				this.category() == other.category()
@@ -59,7 +70,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 
 	@Override
 	String toString() {
-		return application() + "," + category() + "," + methodName()
+		return application().toString() + "," + category() + "," + methodName()
 	}
 
 	@Override
