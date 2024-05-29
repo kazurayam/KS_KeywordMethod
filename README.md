@@ -20,6 +20,6 @@ This script writes a HTML file which contains the list of "Katalon Built-in Keyw
 
 [The output by Test Cases/main/generateListOfKehywordMethodHTML](https://kazurayam.github.io/KS_KeywordMethod/keywordList.html)
 
-# My thought
+## My thought
 
 Through the programming lesson here, I learned a lot about the Java Reflection API, especially [java.lang.reflect.Method](https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Method.html).
