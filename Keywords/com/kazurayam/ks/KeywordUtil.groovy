@@ -6,12 +6,13 @@ import java.util.stream.Collectors
 
 public class KeywordUtil {
 
-	static List<Method> getAccessibleMethods(Class clazz) {
+	static List<Method> getAccessibleMethods(Class<?> clazz) {
 		List<Method> result = new ArrayList<Method>()
 		while (clazz != null) {
 			for (Method method : clazz.getDeclaredMethods()) {
 				int modifiers = method.getModifiers()
-				if (Modifier.isPublic(modifiers) || Modifier.isProtected(modifiers)) {
+				if (Modifier.isPublic(modifiers) || 
+					Modifier.isProtected(modifiers)) {
 					result.add(method)
 				}
 			}
@@ -19,20 +20,34 @@ public class KeywordUtil {
 		}
 		return result;
 	}
-	
-	static List<KeywordMethod> getKeywordMethods(Class clazz) {
+
+	static List<KeywordMethod> getKeywordMethods(Class<?> clazz) {
 		List<Method> allMethods = KeywordUtil.getAccessibleMethods(clazz)
 		AUTType autType = AUTType.resolve(clazz)
 		if (autType == null) {
-			throw new RuntimeException("Unable to resolve AUTType of " + clazz.getName())
+			throw new RuntimeException("Unable to resolve AUTType of " + 
+				clazz.getName())
 		}
 		List<KeywordMethod> keywordMethods = allMethods.stream()
-						.map({ Method m -> new KeywordMethod(autType, m) })
-						.filter({ KeywordMethod km -> km.isAnnotatedWithKeyword() })
-						.distinct()
-						.sorted()
-						.collect(Collectors.toList())
+				.map({ Method m -> new KeywordMethod(autType, m) })
+				.filter({ KeywordMethod km -> km.isAnnotatedWithKeyword() })
+				.distinct()
+				.sorted()
+				.collect(Collectors.toList())
 		return keywordMethods
 	}
 	
+	static KeywordMethod getKeywordMethod(Class<?> clazz, AUTType autType, 
+				String keywordGroup, String methodName, MethodParameters signature) {
+		List<KeywordMethod> list = KeywordUtil.getKeywordMethods(clazz)
+		for (KeywordMethod km : list) {
+			if (km.autType() == autType && 
+					km.keywordGroup() == keywordGroup &&
+					km.methodName() == methodName &&
+					km.signature() == signature) {
+				return km
+			}
+		}
+		return null
+	}
 }

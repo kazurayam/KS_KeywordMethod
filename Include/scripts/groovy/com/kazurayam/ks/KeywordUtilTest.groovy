@@ -9,6 +9,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 @RunWith(JUnit4.class)
@@ -20,12 +21,21 @@ public class KeywordUtilTest {
 		println "allMethods.size()=" + allMethods.size()   // 370
 		assertTrue(allMethods.size() > 0)
 	}
-	
+
 	@Test
 	public void test_getKeywordMethods() {
-		List<KeywordMethod> kwMethods = KeywordUtil.getKeywordMethods(WebUiBuiltInKeywords.class)
-		println "kwMethods.size()=" + kwMethods.size()   //
-		assertTrue(kwMethods.size() > 0)
+		List<KeywordMethod> kms = KeywordUtil.getKeywordMethods(WebUiBuiltInKeywords.class)
+		println "kms.size()=" + kms.size()   //
+		assertTrue(kms.size() > 0)
 	}
-
+	
+	@Test
+	public void test_getKeywordMethod() {
+		KeywordMethod km = 
+			KeywordUtil.getKeywordMethod(WebUiBuiltInKeywords.class,
+				AUTType.WebUI, "Attribute", "getAttribute",
+				new MethodParameters(Arrays.asList(TestObject.class, String.class))
+				)
+		assertNotNull(km)
+	}
 }

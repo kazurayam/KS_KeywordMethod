@@ -17,14 +17,16 @@ void listKeywords(AUTType autType, StringBuilder sb) {
 			 sb.append(" ")
 			 sb.append(km.keywordGroup())
 			 sb.append(" ")
-			 sb.append(km.methodName())
 			 sb.append(" ")
 			 sb.append("<a href=\"")
 			 sb.append(km.javadocUrl())
-			 sb.append("\">javadoc</a>")
+			 sb.append("\">")
+			 sb.append(km.methodName())
+			 sb.append(km.signature().toString())
+			 sb.append("</a>")
 			 sb.append("</li>")
 			 sb.append("\n")
-			 })
+		})
 }
 
 StringBuilder sb = new StringBuilder()
@@ -62,9 +64,9 @@ sb.append("</div>\n")
 sb.append("</body>\n")
 sb.append("</html>\n")
 
-//println sb.toString()
+println sb.toString()
 
-Path dir = Paths.get("./build")
+Path dir = Paths.get("./docs")
 Files.createDirectories(dir)
 Path file = dir.resolve("keywordList.html")
 

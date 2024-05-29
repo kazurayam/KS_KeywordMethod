@@ -1,13 +1,11 @@
 package com.kazurayam.ks
 
-import static org.hamcrest.CoreMatchers.*
 import static org.junit.Assert.*
 
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
@@ -28,7 +26,7 @@ public class AUTTypeTest {
 		String shortName = AUTType.WebUI.getShortClassName()
 		assertEquals("WebUiBuiltInKeywords", shortName)
 	}
-	
+
 	@Test
 	void test_resolve() {
 		assertEquals("webui", AUTType.resolve(WebUiBuiltInKeywords).getUrlComponent())

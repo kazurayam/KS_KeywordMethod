@@ -28,12 +28,29 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		return this.autType
 	}
 
+	String keywordGroup() {
+		return (isAnnotatedWithKeyword()) ? keyword.keywordObject() : ""
+	}
+
+	Method method() {
+		return this.method
+	}
+
 	String methodName() {
 		return method.getName()
 	}
 
-	String keywordGroup() {
-		return (isAnnotatedWithKeyword()) ? keyword.keywordObject() : ""
+	MethodParameters signature() {
+		Class<?>[] parameterTypes = method.getParameterTypes()
+		List<Class<?>> list = new ArrayList<>()
+		for (Class<?> cls : parameterTypes) {
+			list.add(cls)
+		}
+		return new MethodParameters(list)
+	}
+	
+	String fragment() {
+		return methodName() + signature().toString().replaceAll("\\s", "%20")
 	}
 
 	String javadocUrl() {
@@ -44,7 +61,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		sb.append(autType().getShortClassName())
 		sb.append(".html")
 		sb.append("#")
-		sb.append(methodName())
+		sb.append(fragment())
 	}
 
 	@Override
@@ -54,23 +71,25 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		}
 		KeywordMethod other = (KeywordMethod)obj
 		// ignore the difference of method signature
-		return this.autType() == other.autType() &&
+		return  this.autType() == other.autType() &&
 				this.keywordGroup() == other.keywordGroup() &&
-				this.methodName() == other.methodName()
+				this.methodName() == other.methodName() &&
+				this.signature() == other.signature()
 	}
 
 	@Override
 	int hashCode() {
 		int hash = 7;
 		hash = 31 * hash + autType().hashCode();
-		hash = 31 * hash + methodName().hashCode();
 		hash = 31 * hash + keywordGroup().hashCode();
+		hash = 31 * hash + methodName().hashCode();
+		hash = 31 * hash + signature().hashCode();
 		return hash
 	}
 
 	@Override
 	String toString() {
-		return autType().toString() + "," + keywordGroup() + "," + methodName()
+		return autType().toString() + ", " + keywordGroup() + ", " + methodName() + signature().toString()
 	}
 
 	@Override
@@ -79,7 +98,13 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		if (autTypeComparison == 0) {
 			int keywordGroupComparison = this.keywordGroup().compareTo(other.keywordGroup())
 			if (keywordGroupComparison == 0) {
-				return this.methodName().compareTo(other.methodName())
+				int methodNameComparison = this.methodName().compareTo(other.methodName())
+				if (methodNameComparison == 0) {
+					int signatureComparison = this.signature().compareTo(other.signature())
+					return signatureComparison
+				} else {
+					return methodNameComparison
+				}
 			} else {
 				return keywordGroupComparison
 			}
