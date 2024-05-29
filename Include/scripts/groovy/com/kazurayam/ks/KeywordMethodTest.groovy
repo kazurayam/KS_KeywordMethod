@@ -8,6 +8,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
@@ -18,10 +19,10 @@ public class KeywordMethodTest {
 
 	@Before
 	public void setup() {
-		km = KeywordUtil.getKeywordMethod(WebUiBuiltInKeywords.class, 
-					AUTType.WebUI, "Attribute", "getAttribute",
-					new MethodParameters(Arrays.asList(TestObject.class, String.class))
-					)
+		km = KeywordUtil.getKeywordMethod(WebUiBuiltInKeywords.class,
+				AUTType.WebUI, "Attribute", "getAttribute",
+				new MethodParameters(Arrays.asList(TestObject.class, String.class))
+				)
 	}
 
 	@Test
@@ -39,6 +40,16 @@ public class KeywordMethodTest {
 		assertEquals("getAttribute", km.methodName())
 	}
 	
+	@Test
+	public void test_fragment() {
+		assertEquals("getAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)", km.fragment())
+	}
+	
+	@Test
+	public void test_anchorName() {
+		assertEquals("getAttribute(com.kms.katalon.core.testobject.TestObject, java.lang.String)", km.anchorName())
+	}
+
 	@Test
 	public void test_javadocUrl() {
 		String protocol = "https"

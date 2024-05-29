@@ -1,0 +1,3531 @@
+[ [ {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "acceptAlert(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users clicking on \"OK\" button of alert class (alert, confirmation popup, prompt popup)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "acceptAlert()",
+  "description" : "Simulate users clicking on \"OK\" button of alert class (alert, confirmation popup, prompt popup)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "dismissAlert(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users clicking on \"Cancel\" button of alert class (alert, confirmation popup, prompt popup)."
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "dismissAlert()",
+  "description" : "Simulate users clicking on \"Cancel\" button of alert class (alert, confirmation popup, prompt popup)."
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "getAlertText(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get displayed text of the alert class (alert, confirmation popup, prompt popup)."
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "getAlertText()",
+  "description" : "Get displayed text of the alert class (alert, confirmation popup, prompt popup)."
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "setAlertText(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users typing text into prompt popup."
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "setAlertText(java.lang.String)",
+  "description" : "Simulate users typing text into prompt popup."
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "verifyAlertNotPresent(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if alert does not present"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "verifyAlertNotPresent(int)",
+  "description" : "Verify if alert does not present"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "verifyAlertPresent(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if alert presents"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "verifyAlertPresent(int)",
+  "description" : "Verify if alert presents"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "waitForAlert(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for alert to present"
+}, {
+  "autType" : "WebUI",
+  "group" : "Alert",
+  "keyword" : "waitForAlert(int)",
+  "description" : "Wait for alert to present"
+}, {
+  "autType" : "WebUI",
+  "group" : "Attribute",
+  "keyword" : "getAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get attribute value of a web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Attribute",
+  "keyword" : "getAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Get attribute value of a web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "authenticate(java.lang.String,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Navigate to a page that requires authentication. System will enter username and password"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "authenticate(java.lang.String,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Navigate to a page that requires authentication. System will enter username and password"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "back(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users clicking \"back\" button on their browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "back()",
+  "description" : "Simulate users clicking \"back\" button on their browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "closeBrowser(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Close the browser. This action will close all windows of the browser."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "closeBrowser()",
+  "description" : "Close the browser. This action will close all windows of the browser."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "deleteAllCookies(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Delete all cookies of all windows."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "deleteAllCookies()",
+  "description" : "Delete all cookies of all windows."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "forward(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users clicking \"forward\" button on their browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "forward()",
+  "description" : "Simulate users clicking \"forward\" button on their browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "navigateToUrl(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Navigate to the specified web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "navigateToUrl(java.lang.String)",
+  "description" : "Navigate to the specified web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "openBrowser(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Open browser and navigate to the specified url; if url is left empty then just open browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "openBrowser(java.lang.String)",
+  "description" : "Open browser and navigate to the specified url; if url is left empty then just open browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "refresh(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users clicking \"refresh\" button on their browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "refresh()",
+  "description" : "Simulate users clicking \"refresh\" button on their browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "waitForAngularLoad(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for Angular/AJAX call to load within the given time in second unit."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "waitForAngularLoad(int)",
+  "description" : "Wait for Angular/AJAX to load within the given time in second unit."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "waitForJQueryLoad(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for jQuery to load within the given time in second unit."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "waitForJQueryLoad(int)",
+  "description" : "Wait for jQuery to load within the given time in second unit."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "waitForPageLoad(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for the web page to load within the given time in second unit."
+}, {
+  "autType" : "WebUI",
+  "group" : "Browser",
+  "keyword" : "waitForPageLoad(int)",
+  "description" : "Wait for the web page to load within the given time in second unit."
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "check(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Check a toggle-button (check-box/radio-button)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "check(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Check a toggle-button (check-box/radio-button)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "uncheck(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Uncheck a toggle-button (check-box/radio-button)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "uncheck(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Uncheck a toggle-button (check-box/radio-button)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "verifyElementChecked(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given web element is checked."
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "verifyElementChecked(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if the given web element is checked."
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "verifyElementNotChecked(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given web element is NOT checked."
+}, {
+  "autType" : "WebUI",
+  "group" : "Checkbox",
+  "keyword" : "verifyElementNotChecked(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if the given web element is NOT checked."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectAllOption(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Deselect all options"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectAllOption(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Deselect all options"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectOptionByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Deselect the options at the given indices. Index starts from 0."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectOptionByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object)",
+  "description" : "Deselect the options at the given indices. Index starts from 0."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Deselect the options with the given label (displayed text)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean)",
+  "description" : "Deselect the options with the given label (displayed text)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectOptionByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Deselect all options with the given value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "deselectOptionByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean)",
+  "description" : "Deselect all options with the given value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "getNumberOfSelectedOption(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Count the number of options which are being selected the given web element has."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "getNumberOfSelectedOption(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Count the number of options which are being selected the given web element has."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "getNumberOfTotalOption(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Count the total number of options the given web element has"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "getNumberOfTotalOption(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Count the total number of options the given web element has"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectAllOption(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Selection all options of an object."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectAllOption(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Selection all options of an object."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectOptionByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Select the options at the given indices. Index starts from 0."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectOptionByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object)",
+  "description" : "Select the options at the given indices. Index starts from 0."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectOptionByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Select all options with the given label (displayed text)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectOptionByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean)",
+  "description" : "Select all options with the given label (displayed text)"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectOptionByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Select all options that have a value matching the \"value\" argument."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "selectOptionByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean)",
+  "description" : "Select all options that have a value matching the \"value\" argument."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotPresentByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given displayed texts do not exist."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotPresentByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given displayed texts do not exist."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotPresentByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given value do not present."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotPresentByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given value do not present."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotSelectedByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options at the given indices are not selected"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotSelectedByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object,%20int)",
+  "description" : "Verify if the options at the given indices are not selected"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotSelectedByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given displayed texts are not selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotSelectedByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given displayed texts are not selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotSelectedByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given value are not selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionNotSelectedByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given value are not selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionPresentByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the option with the given label (displayed text) presents"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionPresentByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the option with the given label (displayed text) presents"
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionPresentByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given value present."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionPresentByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given value present."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionSelectedByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options at the given indices are selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionSelectedByIndex(com.kms.katalon.core.testobject.TestObject,%20java.lang.Object,%20int)",
+  "description" : "Verify if the options at the given indices are selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionSelectedByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given displayed texts are selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionSelectedByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given displayed texts are selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionSelectedByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the options with the given value are selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionSelectedByValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20boolean,%20int)",
+  "description" : "Verify if the options with the given value are selected."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionsPresent(com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if all expected options are present within the given test object."
+}, {
+  "autType" : "WebUI",
+  "group" : "Combo Box",
+  "keyword" : "verifyOptionsPresent(com.kms.katalon.core.testobject.TestObject,%20java.util.List)",
+  "description" : "Verify if all expected options are present within the given test object."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "clearText(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Clear all text of the test object."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "clearText(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Clear all text of the test object."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "click(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Click on the given element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "click(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Click on the given element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "clickOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Click on the given element with the relative position (x, y) from the top-left corner of that element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "clickOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int)",
+  "description" : "Click on the given element with the relative position (x, y) from the top-left corner of that element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "convertWebElementToTestObject(org.openqa.selenium.WebElement,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Convert a WebElement to a TestObject. It will create a Test Object with no name that wraps around the given WebElement. When the Test Object is used by built-in keywords, it is unwrapped and the given WebElement will be used"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "convertWebElementToTestObject(org.openqa.selenium.WebElement)",
+  "description" : "Convert a WebElement to a TestObject. It will create a Test Object with no name that wraps around the given WebElement. When the Test Object is used by built-in keywords, it is unwrapped and the given WebElement will be used"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "disableSmartWait()",
+  "description" : "Disable smart wait functionality. If global smart wait option is enabled, then this keyword will turn off the smart wait functionality until the end of the calling test case or until the keyword WebUiBuiltinKeywords#enableSmartWait#enableSmartWait is called."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "doubleClick(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Double click on the given web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "doubleClick(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Double click on the given web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "dragAndDropByOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Drag an object and drop it to an offset location"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "dragAndDropByOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int)",
+  "description" : "Drag an object and drop it to an offset location"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "dragAndDropToObject(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Drag an object and drop it to another object"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "dragAndDropToObject(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Drag an object and drop it to another object"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "enableSmartWait()",
+  "description" : "Enable smart wait functionality. Katalon will precede actions on elements by waiting activities to ensure that the page is not loading elements or executing AJAX calls. Such waiting activities greatly increase the chance that elements are available or interactable."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "enhancedClick(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Click on the given element using various trial-and-error methods"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "enhancedClick(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Click on the given element using various trial-and-error methods"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "findWebElement(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Find web element by test object"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "findWebElement(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Find web element by test object"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "findWebElements(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Find to find web elements by test object"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "findWebElements(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Find to find web elements by test object"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "focus(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Move the focus to the specified element; for example, if the element is an input field, move the cursor to that field"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "focus(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Move the focus to the specified element; for example, if the element is an input field, move the cursor to that field"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getAllLinksOnCurrentPage(boolean,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get all links on current page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getAllLinksOnCurrentPage(boolean,%20java.util.List)",
+  "description" : "Get all links on current page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getCSSValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get CSS value of a web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getCSSValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Get CSS value of a web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getElementHeight(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get height of web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getElementHeight(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Get height of web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getElementLeftPosition(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get left position of web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getElementLeftPosition(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Get the left position of web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getElementWidth(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get width of web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "getElementWidth(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Get width of web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "mouseOver(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users hovering a mouse over the given element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "mouseOver(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Simulate users hovering a mouse over the given element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "mouseOverOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "mouseOverOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int)",
+  "description" : "Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "rightClick(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Right click on the given web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "rightClick(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Right click on the given web element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "rightClickOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Right click on the given element with the relative position (x, y) from the top-left corner of that element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "rightClickOffset(com.kms.katalon.core.testobject.TestObject,%20int,%20int)",
+  "description" : "Right click on the given element with the relative position (x, y) from the top-left corner of that element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "scrollToElement(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "scrolls a element into the visible area of the browser window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "scrollToElement(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "scrolls a element into the visible area of the browser window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "uploadFileWithDragAndDrop(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Inject an input that will disappear by the end of this method. This keyword set files to the input and then emit dragenter, dragover, drop events that carry the files to the provided drop zone."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "uploadFileWithDragAndDrop(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Inject an input that will disappear by the end of this method. This keyword set files to the input and then emit dragenter, dragover, drop events that carry the files to the provided drop zone."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "uploadFileWithDragAndDrop(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Inject an input that will disappear by the end of this method. This keyword set files to the input and then emit dragenter, dragover, drop events that carry the files to the drop zone which is defaulted to the body element. To specify your own drop zone, refer to other variat ..."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "uploadFileWithDragAndDrop(java.lang.String)",
+  "description" : "Inject an input that will disappear by the end of this method. This keyword set files to the input and then emit dragenter, dragover, drop events that carry the files to the drop zone which is defaulted to the body element. To specify your own drop zone, refer to other variat ..."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyAllLinksOnCurrentPageAccessible(boolean,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify all links (URLs) on the current page are accessible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyAllLinksOnCurrentPageAccessible(boolean,%20java.util.List)",
+  "description" : "Verify all links (URLs) on the current page are accessible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the web element has an attribute with the specific name and value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Verify if the web element has an attribute with the specific name and value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementClickable(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given element is clickable"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementClickable(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Verify if the given element is clickable"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the web element has an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Verify if the web element has an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementInViewport(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the web element is visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementInViewport(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Deprecated. As of Katalon version 3.7.0.0, replaced by keyword com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementInViewport. Verify if the web element is visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotClickable(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given element is NOT clickable"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotClickable(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Verify if the given element is NOT clickable"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the web element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Verify if the web element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotInViewport(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the web element is NOT visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotInViewport(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if the web element is NOT visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given web element does NOT present on the DOM"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if the given web element does NOT present on the DOM"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if given web element is NOT visible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Verify if given web element is NOT visible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotVisibleInViewport(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Deprecated. As of Katalon version 3.7.0.0, replaced by keyword com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport. Verify if the web element is NOT visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementNotVisibleInViewport(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Deprecated. As of Katalon version 3.7.0.0, replaced by keyword com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport. Verify if the web element is NOT visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementPresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given web element presents on the DOM"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementPresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if the given web element presents on the DOM"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify text of an element."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Verify text of an element."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementVisible(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if given web element is visible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementVisible(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Verify if given web element is visible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementVisibleInViewport(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Deprecated. As of Katalon version 3.7.0.0, replaced by keyword com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementInViewport. Verify if the web element is visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyElementVisibleInViewport(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Deprecated. As of Katalon version 3.7.0.0, replaced by keyword com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementInViewport. Verify if the web element is visible in current view port"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyLinksAccessible(java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify a list of links (URLs) are accessible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "verifyLinksAccessible(java.util.List)",
+  "description" : "Verify a list of links (URLs) are accessible"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element has an attribute with the specific name and value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Wait until the given web element has an attribute with the specific name and value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementClickable(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for the given element to be clickable within the given time in second"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementClickable(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for the given element to be clickable within the given time in second"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element has an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Wait until the given web element has an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotClickable(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for the given element to be not clickable within the given time in second"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotClickable(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for the given element to be not clickable within the given time in second"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Wait until the given web element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for the given element to NOT present (disappear) within the given time in second unit"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for the given element to NOT present (disappear) within the given time in second unit"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotVisible(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element is NOT visible within timeout."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementNotVisible(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait until the given web element is NOT visible within timeout."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementPresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for the given element to present (appear) within the given time in second unit"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementPresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for the given element to present (appear) within the given time in second unit"
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementVisible(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element is visible within timeout."
+}, {
+  "autType" : "WebUI",
+  "group" : "Element",
+  "keyword" : "waitForElementVisible(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait until the given web element is visible within timeout."
+}, {
+  "autType" : "WebUI",
+  "group" : "Form",
+  "keyword" : "submit(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "If this current element is a form, or an element within a form, then this will be submitted. If this causes the current page to change, then this method will block until the new page is loaded."
+}, {
+  "autType" : "WebUI",
+  "group" : "Form",
+  "keyword" : "submit(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "If this current element is a form, or an element within a form, then this will be submitted. If this causes the current page to change, then this method will block until the new page is loaded."
+}, {
+  "autType" : "WebUI",
+  "group" : "Frame",
+  "keyword" : "switchToDefaultContent(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Use this keyword to switch back to default Window, after deal with some framed element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Frame",
+  "keyword" : "switchToDefaultContent()",
+  "description" : "Use this keyword to switch back to default Window, after deal with some framed element"
+}, {
+  "autType" : "WebUI",
+  "group" : "Frame",
+  "keyword" : "switchToFrame(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch the current context into an iframe"
+}, {
+  "autType" : "WebUI",
+  "group" : "Frame",
+  "keyword" : "switchToFrame(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Switch the current context into an iframe"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "clickImage(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Click on an image on the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "clickImage(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Click on an image on the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "typeOnImage(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Type on an image on the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "typeOnImage(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Type on an image on the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "verifyImagePresent(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if an image is present on page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "verifyImagePresent(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Verify if an image is present on page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "waitForImagePresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for an image to be presented on page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Image",
+  "keyword" : "waitForImagePresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for an image to be presented on page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Keyboard",
+  "keyword" : "sendKeys(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulates keystroke events on the specified element, as though you typed the value key-by-key"
+}, {
+  "autType" : "WebUI",
+  "group" : "Keyboard",
+  "keyword" : "sendKeys(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Simulates keystroke events on the specified element, as though you typed the value key-by-key"
+}, {
+  "autType" : "WebUI",
+  "group" : "Keyboard",
+  "keyword" : "uploadFile(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Upload file to an input html element with type = \"file\""
+}, {
+  "autType" : "WebUI",
+  "group" : "Keyboard",
+  "keyword" : "uploadFile(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Upload file to an input html element with type = \"file\""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "getText(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the visible (i.e. not hidden by CSS) innerText of the web element, including sub-elements, without any leading or trailing whitespace."
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "getText(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Get the visible (i.e. not hidden by CSS) innerText of the web element, including sub-elements, without any leading or trailing whitespace."
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "setEncryptedText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set encrypted text into an input field. It also clears the previous value of the input field. To encrypt raw text, go to Help/Encrypt Text"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "setEncryptedText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Set encrypted text into an input field. It also clears the previous value of the input field. To encrypt raw text, go to Help/Encrypt Text"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "setMaskedText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set the value of an input field, as though you type it in. It also clears the previous value of the input field. The text value will be masked."
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "setMaskedText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Set the value of an input field, as though you type it in. It also clears the previous value of the input field. The text value will be masked."
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "setText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set the value of an input field, as though you type it in. It also clears the previous value of the input field"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "setText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Set the value of an input field, as though you type it in. It also clears the previous value of the input field"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyTextNotPresent(java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given texts do NOT present anywhere in the page source"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyTextNotPresent(java.lang.String,%20boolean)",
+  "description" : "Verify if the given texts do NOT present anywhere in the page source"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyTextPresent(java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the given texts present anywhere in the page source"
+}, {
+  "autType" : "WebUI",
+  "group" : "Text",
+  "keyword" : "verifyTextPresent(java.lang.String,%20boolean)",
+  "description" : "Verify if the given texts present anywhere in the page source"
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "comment(java.lang.String)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "modifyObjectProperty(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Modify property of test object. If the property is not existed then the property will be created. If the changed value is null then the existed value will not be changed. Use when test object has attributes changing in runtime. This keyword does not modify the object saved in ..."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "modifyObjectProperty(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : "Modify property of test object. If the property is not existed then the property will be created. If the changed value is null then the existed value will not be changed. Use when test object has attributes changing in runtime. This keyword does not modify the object saved in ..."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "removeObjectProperty(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Remove existing property of test object. Use when test object has attributes changing in runtime. This keyword does not modify the object saved in Object Repository, instead, it creates another test object, modify and return this test object. Hence, users must use a variable  ..."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "removeObjectProperty(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Remove existing property of test object. Use when test object has attributes changing in runtime. This keyword does not modify the object saved in Object Repository, instead, it creates another test object, modify and return this test object. Hence, users must use a variable  ..."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of the specific web element. If the element doesn't exist then this method will fail."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of the specific element with default file name."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Take screenshot of the specific element. Default FailureHandling is used."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Take screenshot of the specific element with default FailureHandling and default file name."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of the specific web element to send to TestOps Vision. If the element doesn't exist then this method will fail."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Take screenshot of the specific web element to check with TestOps Vision. Default FailureHandling is used."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20java.util.List,%20java.awt.Color,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20java.util.List,%20java.awt.Color,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of entire page. No element is going to be ignored."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of entire page with default image name."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.lang.String)",
+  "description" : "Take screenshot of entire page. Default FailureHandling is used. No element is going to be ignored."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot(java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshot()",
+  "description" : "Take screenshot of entire page with default FailureHandling and default image name."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of entire page to send to TestOps Vision without hiding any web elements."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeFullPageScreenshotAsCheckpoint(java.lang.String)",
+  "description" : "Take screenshot of entire page to send to TestOps Vision without hiding any web elements. Default FailureHandling is used."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.lang.String,%20java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of the browser and add text to that screenshot."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of the browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.lang.String,%20java.util.Map)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of the browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.lang.String)",
+  "description" : "Take screenshot of the browser"
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.util.Map)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot()",
+  "description" : "Take screenshot of the browser."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take screenshot of current view-port to send to TestOps Vision. The captured image will be saved in '.png' format."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String)",
+  "description" : "Take screenshot of current view-port to send to TestOps Vision. Default FailureHandling is used."
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "closeWindowIndex(java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Close window with the given index."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "closeWindowIndex(java.lang.Object)",
+  "description" : "Close window with the given index."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "closeWindowTitle(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Close the window with given title."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "closeWindowTitle(java.lang.String)",
+  "description" : "Close the window with given title."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "closeWindowUrl(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Close the window with given url."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "closeWindowUrl(java.lang.String)",
+  "description" : "Close the window with given url."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "executeJavaScript(java.lang.String,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Execute JavaScript on the currently selected frame or window.\nThe provided script fragment will be executed as the body of an anonymous function."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "executeJavaScript(java.lang.String,%20java.util.List)",
+  "description" : "Execute JavaScript on the currently selected frame or window.\nThe provided script fragment will be executed as the body of an anonymous function."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getPageHeight(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current web page's height"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getPageHeight()",
+  "description" : "Get current web page's height"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getPageWidth(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current web page's width"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getPageWidth()",
+  "description" : "Get current web page's width"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getUrl(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get url of the current window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getUrl()",
+  "description" : "Get url of the current window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportHeight(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current viewport's height value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportHeight()",
+  "description" : "Get current viewport's height value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportLeftPosition(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current view port left (x) position relatively to the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportLeftPosition()",
+  "description" : "Get current view port left (x) position relatively to the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportTopPosition(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current view port top (y) position relatively to the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportTopPosition()",
+  "description" : "Get current view port top (y) position relatively to the web page"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportWidth(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current viewport's width value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getViewportWidth()",
+  "description" : "Get current viewport's width value"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getWindowIndex(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get index of the current window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getWindowIndex()",
+  "description" : "Get index of the current window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getWindowTitle(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get title of the current window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "getWindowTitle()",
+  "description" : "Get title of the current window"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "maximizeWindow(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Resize current window to take up the entire screen"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "maximizeWindow()",
+  "description" : "Resize current window to take up the entire screen"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "scrollToPosition(int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Scroll the viewport to a specific position"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "scrollToPosition(int,%20int)",
+  "description" : "Scroll the viewport to a specific position"
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "setViewPortSize(int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set the size of the current window. This will change the outer window dimension and the viewport, synonymous to window.resizeTo() in JS."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "setViewPortSize(int,%20int)",
+  "description" : "Set the size of the current window. This will change the outer window dimension and the viewport, synonymous to window.resizeTo() in JS."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "switchToWindowIndex(java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch to the window with given index."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "switchToWindowIndex(java.lang.Object)",
+  "description" : "Switch to the window with given index."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "switchToWindowTitle(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch to the window with given title."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "switchToWindowTitle(java.lang.String)",
+  "description" : "Switch to the window with given title."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "switchToWindowUrl(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch to the window with given url."
+}, {
+  "autType" : "WebUI",
+  "group" : "Window",
+  "keyword" : "switchToWindowUrl(java.lang.String)",
+  "description" : "Switch to the window with given url."
+} ], [ {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getElementPropertyValue(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get property value of an element (defined by a locator) in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getElementPropertyValue(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String)",
+  "description" : "Get property value of an element (defined by a locator) in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getElementText(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get text of the element (defined by a locator) which appears in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getElementText(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String)",
+  "description" : "Get text of the element (defined by a locator) which appears in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getElementsCount(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the number of expected elements (JSON/XML) in the response (output) of a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getElementsCount(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String)",
+  "description" : "Get the number of expected elements (JSON/XML) in the response (output) of a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get status code in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "getResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject)",
+  "description" : "Get status code in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyElementPropertyValue(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify that there is an element with expected property value appear in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyElementPropertyValue(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20java.lang.Object)",
+  "description" : "Verify that there is an element with expected property value appear in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyElementText(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify that there is an element with expected text appear in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyElementText(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20java.lang.String)",
+  "description" : "Verify that there is an element with expected text appear in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyElementsCount(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify number of expected elements (JSON/XML) in the response (output) of a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyElementsCount(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20int)",
+  "description" : "Verify number of expected elements (JSON/XML) in the response (output) of a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify status code in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject,%20int)",
+  "description" : "Verify status code in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyResponseStatusCodeInRange(com.kms.katalon.core.testobject.ResponseObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify status code valid in a range of status codes in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Element",
+  "keyword" : "verifyResponseStatusCodeInRange(com.kms.katalon.core.testobject.ResponseObject,%20int,%20int)",
+  "description" : "Verify status code valid in a range of status codes in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "sendRequest(com.kms.katalon.core.testobject.RequestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Send a HTTP Request to web server"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "sendRequest(com.kms.katalon.core.testobject.RequestObject)",
+  "description" : "Send a HTTP Request to web server"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "sendRequestAndVerify(com.kms.katalon.core.testobject.RequestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Send a HTTP Request to web server and verify the response"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "sendRequestAndVerify(com.kms.katalon.core.testobject.RequestObject)",
+  "description" : "Send a HTTP Request to web server and verify the response"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateGraphqlRequestAgainstSchema(com.kms.katalon.core.testobject.RequestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Validate a GraphQL request body against a GraphQL schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateGraphqlRequestAgainstSchema(com.kms.katalon.core.testobject.RequestObject,%20java.lang.String)",
+  "description" : "Validate a GraphQL request body against a GraphQL schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateJsonAgainstSchema(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Validate a response against a JSON schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateJsonAgainstSchema(java.lang.String,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Validate a JSON object against a JSON schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateJsonAgainstSchema(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String)",
+  "description" : "Validate a response against a JSON schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateJsonAgainstSchema(java.lang.String,%20java.lang.String)",
+  "description" : "Validate a JSON object against a JSON schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateXmlAgainstSchema(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Validate a response against an XML schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateXmlAgainstSchema(java.lang.String,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Validate an XML object against an XML schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateXmlAgainstSchema(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String)",
+  "description" : "Validate a response against an XML schema"
+}, {
+  "autType" : "WS",
+  "group" : "Request",
+  "keyword" : "validateXmlAgainstSchema(java.lang.String,%20java.lang.String)",
+  "description" : "Validate an XML object against an XML schema"
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "containsString(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify that an expected text appear in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "containsString(com.kms.katalon.core.testobject.ResponseObject,%20java.lang.String,%20boolean)",
+  "description" : "Verify that an expected text appear in the returned data from a web service call"
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "comment(java.lang.String)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "getHarFileGeneration(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Checks HAR file generation option is enabled or not."
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "getHarFileGeneration()",
+  "description" : "Checks HAR file generation option is enabled or not."
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "setHarFileGeneration(boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Katalon Studio will generate HAR file for each Web Service request by default. This keyword will allow us can enable or disable HAR file generations on demand."
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "setHarFileGeneration(boolean)",
+  "description" : "Katalon Studio will generate HAR file for each Web Service request by default. This keyword will allow us can enable or disable HAR file generations on demand."
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "WS",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean)",
+  "description" : ""
+} ], [ {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "closeApplication(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Close the current running application"
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "closeApplication()",
+  "description" : "Close the current running application"
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "runIOSAppInBackgroundAndWait(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Running the active application in background"
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "runIOSAppInBackgroundAndWait(int)",
+  "description" : "Running the active application in background"
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "startApplication(java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Start up an application"
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "startApplication(java.lang.String,%20boolean)",
+  "description" : "Start up an application"
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "startExistingApplication(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Starts Appium driver and activate an installed application by it's given application ID."
+}, {
+  "autType" : "Mobile",
+  "group" : "Application",
+  "keyword" : "startExistingApplication(java.lang.String)",
+  "description" : "Starts Appium driver and activate an installed application by it's given application ID."
+}, {
+  "autType" : "Mobile",
+  "group" : "Attribute",
+  "keyword" : "getAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get a specific attribute of a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Attribute",
+  "keyword" : "getAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Get a specific attribute of a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getCurrentOrientation(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get current screen orientation of the device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getCurrentOrientation()",
+  "description" : "Get current screen orientation of the device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceHeight(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get device's physical height"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceHeight()",
+  "description" : "Get device's physical height"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceManufacturer(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the manufacturer of the current active mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceManufacturer()",
+  "description" : "Get the manufacturer of the current active mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceOS(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the device os of the current active mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceOS()",
+  "description" : "Get the device os of the current active mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceOSVersion(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the device os version of the current active mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceOSVersion()",
+  "description" : "Get the device os version of the current active mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceWidth(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get device's physical width"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getDeviceWidth()",
+  "description" : "Get device's physical width"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getElementLeftPosition(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the left position of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getElementLeftPosition(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Get the left position of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getElementTopPosition(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the top position of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "getElementTopPosition(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Get the top position of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "hideKeyboard(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Hide the keyboard if it is showing"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "hideKeyboard()",
+  "description" : "Hide the keyboard if it is showing"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToLandscape(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch the current device's mode to landscape mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToLandscape()",
+  "description" : "Switch the current device's mode to landscape mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToNative(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch the current device driver to native context"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToNative()",
+  "description" : "Switch the current device driver to native context"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToPortrait(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch the current device's mode to portrait mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToPortrait()",
+  "description" : "Switch the current device's mode to portrait mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToWebView(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switch the current device driver to web view context"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "switchToWebView()",
+  "description" : "Switch the current device driver to web view context"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "unlockScreen(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Unlock device screen"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "unlockScreen()",
+  "description" : "Unlock device screen"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "verifyIsLandscape(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if current device is in landscape mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "verifyIsLandscape()",
+  "description" : "Verify if current device is in landscape mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "verifyIsPortrait(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if current device is in portrait mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Device",
+  "keyword" : "verifyIsPortrait()",
+  "description" : "Verify if current device is in portrait mode"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "checkElement(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Check a check-box mobile element (android.widget.CheckBox for Android, UIASwitch for iOS)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "checkElement(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Check a check-box mobile element (android.widget.CheckBox for Android, UIASwitch for iOS)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "dragAndDrop(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Drag and drop an element into another element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "dragAndDrop(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Drag and drop an element into another element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "executeMobileCommand(java.lang.String,%20java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Executes a native mobile command\n\nSample of usage:"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "executeMobileCommand(java.lang.String,%20java.util.Map)",
+  "description" : "Executes a native mobile command\n\nSample of usage:"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "findImageElement(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds the mobile element that is recognized by the given image."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "findImageElement(java.lang.String)",
+  "description" : "Finds the mobile element that is recognized by the given image."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "findImageElements(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds all mobile elements that are recognized by the given image."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "findImageElements(java.lang.String)",
+  "description" : "Finds all mobile elements that are recognized by the given image."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "getElementHeight(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the height of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "getElementHeight(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Get the height of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "getElementWidth(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the width of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "getElementWidth(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Get the width of mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "longPress(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a long-press action on a mobile element."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "longPress(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Performs a long-press action on a mobile element."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "selectListItemByIndex(com.kms.katalon.core.testobject.TestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Select item of list view control by its index. Have not implemented for Android because its list view is async loaded"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "selectListItemByIndex(com.kms.katalon.core.testobject.TestObject,%20int,%20int)",
+  "description" : "Select item of list view control by its index. Have not implemented for Android because its list view is async loaded"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "selectListItemByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Select item of list view control by its label."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "selectListItemByLabel(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Select item of list view control by its label."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "sendKeys(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulates keystroke events on the specified element, as though you typed the value key-by-key."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "sendKeys(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Simulates keystroke events on the specified element, as though you typed the value key-by-key."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "setSliderValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.Number,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "setSliderValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.Number,%20int)",
+  "description" : "Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "tapAndHold(com.kms.katalon.core.testobject.TestObject,%20java.lang.Number,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Tap and hold on a mobile element for a duration"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "tapAndHold(com.kms.katalon.core.testobject.TestObject,%20java.lang.Number,%20int)",
+  "description" : "Tap and hold on a mobile element for a duration"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "tapOnImage(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds the webElement that is recognized by the given image then taps on the found element's location."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "tapOnImage(java.lang.String)",
+  "description" : "Finds the mobile element that is recognized by the given image and taps on the found element's location."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "uncheckElement(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Un-check a check-box mobile element (android.widget.CheckBox for Android, UIASwitch for iOS)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "uncheckElement(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Un-check a check-box mobile element (android.widget.CheckBox for Android, UIASwitch for iOS)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the element has an attribute with the specific name and value"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Verify if the element has an attribute with the specific name and value"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementChecked(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if a mobile element is checked"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementChecked(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if a mobile element is checked"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementExist(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if a mobile element is presented"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementExist(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if a mobile element is presented"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the element has an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Verify if the element has an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotChecked(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if a mobile element is not checked"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotChecked(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if a mobile element is not checked"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotExist(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if a mobile element is NOT presented"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotExist(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if a mobile element is NOT presented"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if the element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Verify if the element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if a mobile element is NOT visible"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementNotVisible(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if a mobile element is NOT visible"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify text of an element."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)",
+  "description" : "Verify text of an element."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementVisible(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verify if a mobile element is visible"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyElementVisible(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Verify if a mobile element is visible"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyImagePresent(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Verifies the given image that presents on the device screen or not."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "verifyImagePresent(java.lang.String)",
+  "description" : "Verifies the given image that presents on the device screen or not."
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element has an attribute with the specific name and value"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementAttributeValue(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Wait until the given web element has an attribute with the specific name and value"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element has an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Wait until the given web element has an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait until the given web element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementNotHasAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Wait until the given web element doesn't have an attribute with the specific name"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for a mobile element to NOT present (disappear) within the given time in second unit"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for a mobile element to NOT present (disappear) within the given time in second unit"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementPresent(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Wait for a mobile element to present"
+}, {
+  "autType" : "Mobile",
+  "group" : "Element",
+  "keyword" : "waitForElementPresent(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Wait for a mobile element to present"
+}, {
+  "autType" : "Mobile",
+  "group" : "Notification",
+  "keyword" : "closeNotifications(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate closing notification action on mobile devices"
+}, {
+  "autType" : "Mobile",
+  "group" : "Notification",
+  "keyword" : "closeNotifications()",
+  "description" : "Simulate closing notification action on mobile devices"
+}, {
+  "autType" : "Mobile",
+  "group" : "Notification",
+  "keyword" : "openNotifications(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate opening notification action on mobile devices"
+}, {
+  "autType" : "Mobile",
+  "group" : "Notification",
+  "keyword" : "openNotifications()",
+  "description" : "Simulate opening notification action on mobile devices"
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "doubleTap(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a double tap action on a mobile element."
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "doubleTap(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Performs a double tap action on a mobile element."
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "pinchToZoomInAtPosition(java.lang.Number,%20java.lang.Number,%20java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Pinch to zoom in at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "pinchToZoomInAtPosition(java.lang.Number,%20java.lang.Number,%20java.lang.Number)",
+  "description" : "Pinch to zoom in at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "pinchToZoomOutAtPosition(java.lang.Number,%20java.lang.Number,%20java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Pinch to zoom out at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "pinchToZoomOutAtPosition(java.lang.Number,%20java.lang.Number,%20java.lang.Number)",
+  "description" : "Pinch to zoom out at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "swipe(int,%20int,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate swiping fingers on the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "swipe(int,%20int,%20int,%20int)",
+  "description" : "Simulate swiping fingers on the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "tap(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Tap on an mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "tap(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Tap on an mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "tapAndHoldAtPosition(java.lang.Number,%20java.lang.Number,%20java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Tap and hold at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "tapAndHoldAtPosition(java.lang.Number,%20java.lang.Number,%20java.lang.Number)",
+  "description" : "Tap and hold at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "tapAtPosition(java.lang.Number,%20java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Tap at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Screen",
+  "keyword" : "tapAtPosition(java.lang.Number,%20java.lang.Number)",
+  "description" : "Tap at a specific position on the screen of the mobile device"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "clearText(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Clear text of a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "clearText(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Clear text of a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "getText(com.kms.katalon.core.testobject.TestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get text of a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "getText(com.kms.katalon.core.testobject.TestObject,%20int)",
+  "description" : "Get text of a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "scrollToText(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Scroll to an element which contains the given text."
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "scrollToText(java.lang.String)",
+  "description" : "Scroll to an element which contains the given text."
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "setEncryptedText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set encrypted text into an input field. It also clears the previous value of the input field. To encrypt raw text, go to Help/Encrypt Text."
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "setEncryptedText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Set encrypted text into an input field. It also clears the previous value of the input field. To encrypt raw text, go to Help/Encrypt Text."
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "setText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Set text to a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "setText(com.kms.katalon.core.testobject.TestObject,%20java.lang.String,%20int)",
+  "description" : "Set text to a mobile element"
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "comment(java.lang.String)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "performTouchID(boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate a Touch ID event on iOS simulators. To enable this keyword, Touch ID on the simulator must be enrolled."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "performTouchID(boolean)",
+  "description" : "Simulate a Touch ID event on iOS simulators. To enable this keyword, Touch ID on the simulator must be enrolled."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "pressBack(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate pressing back button on a mobile device (Android only)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "pressBack()",
+  "description" : "Simulate pressing back button on a mobile device (Android only)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "pressHome(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate pressing home button on mobile devices (Android only)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "pressHome()",
+  "description" : "Simulate pressing home button on mobile devices (Android only)"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(java.lang.String,%20org.openqa.selenium.Rectangle)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshot(org.openqa.selenium.Rectangle)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeAreaScreenshotAsCheckpoint(java.lang.String,%20org.openqa.selenium.Rectangle)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take a screenshot of a UI element. The test engine will scroll to this element first then taking a screenshot."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take a screenshot of a UI element. The test engine will scroll to this element first then taking a screenshot."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(java.lang.String,%20com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Take a screenshot of a UI element. The test engine will scroll to this element first then taking a screenshot."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshot(com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Take a screenshot of a UI element. The test engine will scroll to this element first then taking a screenshot."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take a screenshot of a UI element to send to TestOps Vision. The test engine will scroll to this element first then taking a screenshot. The captured image will be saved to the `keyes` folder in the report."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeElementScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.testobject.TestObject)",
+  "description" : "Take a screenshot of a UI element to send to TestOps Vision. The test engine will scroll to this element first then taking a screenshot. The captured image will be saved to the `keyes` folder in the report."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Taking screenshot of the mobile device screen"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Taking screenshot of the mobile device screen"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot(java.lang.String)",
+  "description" : "Taking screenshot of the mobile device screen"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshot()",
+  "description" : "Taking screenshot of the mobile device screen"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List,%20java.awt.Color)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Take a screenshot of the current application to send to TestOps Vision. The captured image will be saved to the keyes folder in the report. The screenshot will not include OS's status and navigation bars."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String,%20java.util.List)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "takeScreenshotAsCheckpoint(java.lang.String)",
+  "description" : "Take a screenshot of the current application to send to TestOps Vision. The captured image will be saved to the keyes folder in the report. The screenshot will not include OS's status and navigation bars."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "toggleAirplaneMode(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate toggling airplane mode on mobile devices"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "toggleAirplaneMode(java.lang.String)",
+  "description" : "Simulate toggling airplane mode on mobile devices"
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "toggleWifi(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate toggling Wifi on/off on mobile devices.\nSupport iOS real devices and Android emulators."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "toggleWifi(java.lang.String)",
+  "description" : "Simulate toggling Wifi on/off on mobile devices.\nSupport iOS real devices and Android emulators."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "useFingerprint(int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulate a fingerprint touch event on Android emulators. To enable this keyword, at least one fingerprint must be enrolled on the emulator using Android Debug Bridge."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "useFingerprint(int)",
+  "description" : "Simulate a fingerprint touch event on Android emulators. To enable this keyword, at least one fingerprint must be enrolled on the emulator using Android Debug Bridge."
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Mobile",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean)",
+  "description" : ""
+} ], [ {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "closeApplication()",
+  "description" : "Fires the Close event of the running application to the Windows System.\nThis action is similar to pressing 'ALT + F4' and also does not force close the application."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "getDriver()",
+  "description" : "Gets the current Windows Driver."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "startApplication(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Starts Windows driver and starts the Windows application at the given absolute path."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "startApplication(java.lang.String)",
+  "description" : "Starts Windows driver and starts the Windows application at the given absolute path."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "startApplicationWithTitle(java.lang.String,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Starts Windows driver and starts the Windows application at the given absolute path. After the application starts, if WinAppDriver cannot not detect the main application window correctly, Katalon Studio will use the given windowTitle in the preset timeout (120 seconds by defa ..."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "startApplicationWithTitle(java.lang.String,%20java.lang.String)",
+  "description" : "Starts Windows driver and starts the Windows application at the given absolute path. After the application starts, if WinAppDriver cannot not detect the main application window correctly, Katalon Studio will use the given windowTitle in the preset timeout (120 seconds by defa ..."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToApplication(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switches the current running driver to the application WindowsDriver."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToApplication()",
+  "description" : "Switches the current running driver to the application WindowsDriver."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToDesktop(com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Switches the current running driver to desktop session of Windows Driver. KS will initialize another WindowsDriver with 'app: Root' desired capability and the same WinAppDriver URL and Proxy settings of the application driver."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToDesktop()",
+  "description" : "Switches the current running driver to desktop session of Windows Driver. KS will initialize another WindowsDriver with 'app: Root' desired capability and the same WinAppDriver URL and Proxy settings of the application driver."
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToWindow(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds and attaches the opening application window that describes by the given windowsObject to the working WindowsDriver session on the current desktop. This keyword should use when:"
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToWindow(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Finds and attaches the opening application window that describes by the given windowsObject to the working WindowsDriver session on the current desktop. This keyword should use when:"
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToWindowTitle(java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds and switches the opening application window to the working WindowsDriver session on the current desktop by the given title in the preset timeout (120 seconds by default). This keyword should use when:"
+}, {
+  "autType" : "Windows",
+  "group" : "Application",
+  "keyword" : "switchToWindowTitle(java.lang.String)",
+  "description" : "Finds and switches the opening application window to the working WindowsDriver session on the current desktop by the given title in the preset timeout (120 seconds by default). This keyword should use when:"
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "clearText(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Clears text content of the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "clearText(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Clears text content of the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "click(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a click action on the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "click(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Performs a click action on the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "clickElementOffset(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a click action at the given offset on the windows element (relative to its top-left corner) that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "clickElementOffset(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20int)",
+  "description" : "Performs a click action at the given offset of the windows element (relative to its top-left corner) that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "doubleClick(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a double-click action on the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "doubleClick(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Performs a double-click action on the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "findElement(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds element by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "findElement(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Finds element by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "findElements(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Finds elements by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "findElements(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Finds elements by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getAttribute(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Gets attribute value of a Windows element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getAttribute(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String)",
+  "description" : "Gets attribute value of a Windows element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getElementPosition(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the position of the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getElementPosition(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Get the position of the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getElementRect(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Get the bounding rectangle of the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getElementRect(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Get the bounding rectangle of the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getText(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Gets text content of the WebElement that is found by using locator value of the given windowsObject.\nThis action will append the given text on the element and doesn't clear the current text of the element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "getText(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Gets text content of the WebElement that is found by using locator value of the given windowsObject.\nThis action will append the given text on the element and doesn't clear the current text of the element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "rightClick(com.kms.katalon.core.testobject.WindowsTestObject,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a right-click action on the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "rightClick(com.kms.katalon.core.testobject.WindowsTestObject)",
+  "description" : "Performs a right-click action on the WebElement that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "rightClickElementOffset(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a right-click action at the provided offset on the windows element that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "rightClickElementOffset(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20int)",
+  "description" : "Performs a right-click action at the provided offset on the windows element that is found by using locator value of the given windowsObject."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "sendKeys(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Simulates keystroke events on the specified element, as though you typed the value key-by-key"
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "sendKeys(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String)",
+  "description" : "Simulates keystroke events on the specified element, as though you typed the value key-by-key"
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "setEncryptedText(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a set text action on the WebElement that is found by using locator value of the given windowsObject.\nThis action will clear the current text and append the new encrypted text on the element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "setEncryptedText(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String)",
+  "description" : "Performs a set text action on the WebElement that is found by using locator value of the given windowsObject.\nThis action will clear the current text and append the new encrypted text on the element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "setText(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Performs a set text action on the WebElement that is found by using locator value of the given windowsObject.\nThis action will clear the current text and append the given text on the element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "setText(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String)",
+  "description" : "Performs a set text action on the WebElement that is found by using locator value of the given windowsObject.\nThis action will clear the current text and append the given text on the element."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "verifyElementAttributeValue(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Waits until the given element has an attribute with the specific name and value within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "verifyElementAttributeValue(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Waits until the given element has an attribute with the specific name and value within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "verifyElementNotPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Waits until the given element not to present (disappear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "verifyElementNotPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int)",
+  "description" : "Waits until the given element not to present (disappear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "verifyElementPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Waits until the given element to present (appear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "verifyElementPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int)",
+  "description" : "Waits until the given element to present (appear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "waitForElementAttributeValue(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20java.lang.String,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Waits until the given element has an attribute with the specific name and value within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "waitForElementAttributeValue(com.kms.katalon.core.testobject.WindowsTestObject,%20java.lang.String,%20java.lang.String,%20int)",
+  "description" : "Waits until the given element has an attribute with the specific name and value within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "waitForElementNotPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Waits for the given element not to present (disappear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "waitForElementNotPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int)",
+  "description" : "Waits for the given element not to present (disappear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "waitForElementPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : "Waits for the given element to present (appear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Element",
+  "keyword" : "waitForElementPresent(com.kms.katalon.core.testobject.WindowsTestObject,%20int)",
+  "description" : "Waits for the given element to present (appear) within the given time in second unit."
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyGreaterThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyLessThan(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyLessThanOrEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Number",
+  "keyword" : "verifyNotEqual(java.lang.Object,%20java.lang.Object)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Text",
+  "keyword" : "concatenate([Ljava.lang.String;)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Text",
+  "keyword" : "verifyMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Text",
+  "keyword" : "verifyNotMatch(java.lang.String,%20java.lang.String,%20boolean)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "callTestCase(com.kms.katalon.core.testcase.TestCase,%20java.util.Map)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "comment(java.lang.String)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "delay(java.lang.Number)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean,%20com.kms.katalon.core.model.FailureHandling)",
+  "description" : ""
+}, {
+  "autType" : "Windows",
+  "group" : "Utilities",
+  "keyword" : "verifyCheckpoint(com.kms.katalon.core.checkpoint.Checkpoint,%20boolean)",
+  "description" : ""
+} ] ]

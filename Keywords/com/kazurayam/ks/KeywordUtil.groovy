@@ -11,8 +11,8 @@ public class KeywordUtil {
 		while (clazz != null) {
 			for (Method method : clazz.getDeclaredMethods()) {
 				int modifiers = method.getModifiers()
-				if (Modifier.isPublic(modifiers) || 
-					Modifier.isProtected(modifiers)) {
+				if (Modifier.isPublic(modifiers) ||
+						Modifier.isProtected(modifiers)) {
 					result.add(method)
 				}
 			}
@@ -25,8 +25,8 @@ public class KeywordUtil {
 		List<Method> allMethods = KeywordUtil.getAccessibleMethods(clazz)
 		AUTType autType = AUTType.resolve(clazz)
 		if (autType == null) {
-			throw new RuntimeException("Unable to resolve AUTType of " + 
-				clazz.getName())
+			throw new RuntimeException("Unable to resolve AUTType of " +
+			clazz.getName())
 		}
 		List<KeywordMethod> keywordMethods = allMethods.stream()
 				.map({ Method m -> new KeywordMethod(autType, m) })
@@ -36,12 +36,12 @@ public class KeywordUtil {
 				.collect(Collectors.toList())
 		return keywordMethods
 	}
-	
-	static KeywordMethod getKeywordMethod(Class<?> clazz, AUTType autType, 
-				String keywordGroup, String methodName, MethodParameters signature) {
+
+	static KeywordMethod getKeywordMethod(Class<?> clazz, AUTType autType,
+			String keywordGroup, String methodName, MethodParameters signature) {
 		List<KeywordMethod> list = KeywordUtil.getKeywordMethods(clazz)
 		for (KeywordMethod km : list) {
-			if (km.autType() == autType && 
+			if (km.autType() == autType &&
 					km.keywordGroup() == keywordGroup &&
 					km.methodName() == methodName &&
 					km.signature() == signature) {

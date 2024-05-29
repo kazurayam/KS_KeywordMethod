@@ -10,10 +10,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords
  */
 public enum AUTType {
 
-	WebUI(WebUiBuiltInKeywords.class, "webui"),
-	WS(WSBuiltInKeywords.class, "webservice"),
-	Mobile(MobileBuiltInKeywords.class, "mobile"),
-	Windows(WindowsBuiltinKeywords.class, "windows");
+	WebUI(WebUiBuiltInKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html"),
+	WS(WSBuiltInKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html"),
+	Mobile(MobileBuiltInKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html"),
+	Windows(WindowsBuiltinKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/windows/keyword/WindowsBuiltinKeywords.html");
 
 	static AUTType resolve(Class clazz) {
 		if (clazz.getName() == MobileBuiltInKeywords.getName()) {
@@ -30,19 +30,19 @@ public enum AUTType {
 	}
 
 	private Class clazz
-	private String urlComponent
+	private String javadocUrl
 
-	AUTType(Class clazz, String urlComponent) {
+	AUTType(Class clazz, String javadocUrl) {
 		this.clazz = clazz
-		this.urlComponent = urlComponent
+		this.javadocUrl = javadocUrl
 	}
 
-	Class getKeywordClass() {
+	Class getKeywordsClass() {
 		return clazz
 	}
 
-	String getUrlComponent() {
-		return urlComponent
+	String getJavadocUrl() {
+		return javadocUrl
 	}
 
 	String getClassName() {

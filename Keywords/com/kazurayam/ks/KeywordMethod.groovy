@@ -9,6 +9,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 	private AUTType autType
 	private Method method
 	private Keyword keyword = null
+	private String description
 
 	KeywordMethod(AUTType autType, Method method) {
 		Objects.requireNonNull(autType)
@@ -18,6 +19,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		if (method.getDeclaredAnnotation(Keyword.class) != null) {
 			keyword = (Keyword)method.getDeclaredAnnotation(Keyword.class)
 		}
+		this.description = ""
 	}
 
 	boolean isAnnotatedWithKeyword() {
@@ -48,20 +50,32 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		}
 		return new MethodParameters(list)
 	}
-	
+
+	/**
+	 * 
+	 * @return e.g. "authenticate(java.lang.String, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)"
+	 */
 	String fragment() {
 		return methodName() + signature().toString().replaceAll("\\s", "%20")
+	}
+	
+	String anchorName() {
+		return methodName() + signature().toString()
 	}
 
 	String javadocUrl() {
 		StringBuilder sb = new StringBuilder()
-		sb.append("https://api-docs.katalon.com/com/kms/katalon/core/")
-		sb.append(autType().getUrlComponent())
-		sb.append("/keyword/")
-		sb.append(autType().getShortClassName())
-		sb.append(".html")
+		sb.append(autType().getJavadocUrl())
 		sb.append("#")
 		sb.append(fragment())
+	}
+
+	String description() {
+		return this.description
+	}
+
+	void setDescription(String description) {
+		this.description = description
 	}
 
 	@Override
@@ -89,7 +103,11 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 
 	@Override
 	String toString() {
-		return autType().toString() + ", " + keywordGroup() + ", " + methodName() + signature().toString()
+		String s = "${autType().toString()}, ${keywordGroup()}, ${methodName()}${signature().toString()}"
+		if (description().length() > 0) {
+			s += ", \"${description()}\""
+		}
+		return s
 	}
 
 	@Override

@@ -16,22 +16,21 @@ public class AUTTypeTest {
 
 	@Test
 	void test_WebUI() {
-
-		String urlComponent = AUTType.WebUI.getUrlComponent()
-		assertEquals("webui", urlComponent)
-
 		String className = AUTType.WebUI.getClassName()
 		assertEquals("com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords", className)
 
 		String shortName = AUTType.WebUI.getShortClassName()
 		assertEquals("WebUiBuiltInKeywords", shortName)
+
+		String javadocUrl = AUTType.WebUI.getJavadocUrl()
+		assertEquals("https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html", javadocUrl)
 	}
 
 	@Test
 	void test_resolve() {
-		assertEquals("webui", AUTType.resolve(WebUiBuiltInKeywords).getUrlComponent())
-		assertEquals("webservice", AUTType.resolve(WSBuiltInKeywords).getUrlComponent())
-		assertEquals("mobile", AUTType.resolve(MobileBuiltInKeywords).getUrlComponent())
-		assertEquals("windows", AUTType.resolve(WindowsBuiltinKeywords).getUrlComponent())
+		assertEquals("WebUiBuiltInKeywords", AUTType.resolve(WebUiBuiltInKeywords).getShortClassName())
+		assertEquals("WSBuiltInKeywords", AUTType.resolve(WSBuiltInKeywords).getShortClassName())
+		assertEquals("MobileBuiltInKeywords", AUTType.resolve(MobileBuiltInKeywords).getShortClassName())
+		assertEquals("WindowsBuiltinKeywords", AUTType.resolve(WindowsBuiltinKeywords).getShortClassName())
 	}
 }
