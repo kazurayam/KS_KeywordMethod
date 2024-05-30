@@ -26,7 +26,8 @@ public class KeywordMethodSerializer extends StdSerializer<KeywordMethod> {
 		jgen.writeStartObject()
 		jgen.writeStringField("autType", km.autType().toString())
 		jgen.writeStringField("group", km.keywordGroup())
-		jgen.writeStringField("keyword", km.fragment())
+		jgen.writeStringField("methodName", km.methodName())
+		jgen.writeStringField("parameters", km.getMethodParameters().toString())
 		jgen.writeStringField("description", km.description())
 		jgen.writeEndObject()
 	}

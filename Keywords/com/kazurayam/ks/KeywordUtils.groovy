@@ -43,13 +43,13 @@ public class KeywordUtils {
 	}
 
 	static KeywordMethod getKeywordMethod(Class<?> clazz, AUTType autType,
-			String keywordGroup, String methodName, MethodParameters signature) {
+			String keywordGroup, String methodName, MethodParameters parameters) {
 		List<KeywordMethod> list = KeywordUtils.getKeywordMethods(clazz)
 		for (KeywordMethod km : list) {
 			if (km.autType() == autType &&
 					km.keywordGroup() == keywordGroup &&
 					km.methodName() == methodName &&
-					km.signature() == signature) {
+					km.getMethodParameters() == parameters) {
 				return km
 			}
 		}

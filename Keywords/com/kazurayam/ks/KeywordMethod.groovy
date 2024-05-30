@@ -42,7 +42,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		return method.getName()
 	}
 
-	MethodParameters signature() {
+	MethodParameters getMethodParameters() {
 		Class<?>[] parameterTypes = method.getParameterTypes()
 		List<Class<?>> list = new ArrayList<>()
 		for (Class<?> cls : parameterTypes) {
@@ -56,11 +56,11 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 	 * @return e.g. "authenticate(java.lang.String, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)"
 	 */
 	String fragment() {
-		return methodName() + signature().toString().replaceAll("\\s", "%20")
+		return methodName() + getMethodParameters().toString().replaceAll("\\s", "%20")
 	}
-	
+
 	String anchorName() {
-		return methodName() + signature().toString()
+		return methodName() + getMethodParameters().toString()
 	}
 
 	String javadocUrl() {
@@ -97,13 +97,13 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		hash = 31 * hash + autType().hashCode();
 		hash = 31 * hash + keywordGroup().hashCode();
 		hash = 31 * hash + methodName().hashCode();
-		hash = 31 * hash + signature().hashCode();
+		hash = 31 * hash + getMethodParameters().hashCode();
 		return hash
 	}
 
 	@Override
 	String toString() {
-		String s = "${autType().toString()}, ${keywordGroup()}, ${methodName()}${signature().toString()}"
+		String s = "${autType().toString()}, ${keywordGroup()}, ${methodName()}${getMethodParameters().toString()}"
 		if (description().length() > 0) {
 			s += ", \"${description()}\""
 		}
@@ -118,7 +118,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 			if (keywordGroupComparison == 0) {
 				int methodNameComparison = this.methodName().compareTo(other.methodName())
 				if (methodNameComparison == 0) {
-					int signatureComparison = this.signature().compareTo(other.signature())
+					int signatureComparison = this.getMethodParameters().compareTo(other.getMethodParameters())
 					return signatureComparison
 				} else {
 					return methodNameComparison

@@ -1,39 +1,36 @@
 package com.kazurayam.ks
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import internal.GlobalVariable
-import com.kazurayam.ks.KeywordUtils as KU
-
 import static org.junit.Assert.*
 
+import org.junit.BeforeClass
+import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords
+import com.kazurayam.ks.KeywordUtils as KU
+import com.kazurayam.unittest.TestOutputOrganizer
+import com.kms.katalon.core.configuration.RunConfiguration
+
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
 
 @RunWith(JUnit4.class)
 public class KeywordBookTest {
+
+	private static Path projDir = Paths.get(RunConfiguration.getProjectDir())
+
+	private static TestOutputOrganizer too =
+	new TestOutputOrganizer.Builder(KeywordBookTest.class)
+	.projectDirectory(projDir)
+	.subOutputDirectory(KeywordBookTest.class)
+	.build()
+
+	@BeforeClass
+	public static void beforeClass() throws IOException {
+		too.cleanOutputDirectory()
+	}
 
 	@Test
 	public void test_constructor() {
@@ -42,11 +39,11 @@ public class KeywordBookTest {
 	}
 
 	@Test
-	public void test_set_getKeywordMethods() {
+	public void test_set_and_get_KeywordMethods() {
 		// given
 		List<KeywordMethod> list1 = KU.getKeywordMethods(AUTType.WebUI.getKeywordsClass())
 		KeywordBook kb = new KeywordBook()
-		kb.setKeywordMethods(AUTType.WebUI, list)
+		kb.setKeywordMethods(AUTType.WebUI, list1)
 		// when
 		List<KeywordMethod> list2 = kb.getKeywordMethods(AUTType.WebUI)
 		// then
@@ -55,15 +52,21 @@ public class KeywordBookTest {
 	}
 
 	@Test
-	public void test_getKeywordMethods() {
-		throw new RuntimeException("TODO")
-	}
-
-	@Test
 	public void test_serialize() {
-		throw new RuntimeException("TODO")
+		// given
+		List<KeywordMethod> list1 = KU.getKeywordMethods(AUTType.WebUI.getKeywordsClass())
+		KeywordBook kb = new KeywordBook()
+		kb.setKeywordMethods(AUTType.WebUI, list1)
+		// when
+		Path dir = too.cleanMethodOutputDirectory("test_serialize")
+		Path file = dir.resolve("KeywordBook.json")
+		kb.serialize(file)
+		// then
+		assertTrue(Files.exists(file))
+		assertTrue(file.toFile().length() > 100)  // has some content
 	}
 
+	@Ignore
 	@Test
 	public void test_deserialize() {
 		throw new RuntimeException("TODO")
