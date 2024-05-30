@@ -22,6 +22,10 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		this.description = ""
 	}
 
+	KeywordMethod(String autType, String group, String methodName, String methodParameters, String description) {
+		throw new RuntimeException("TODO")
+	}
+
 	boolean isAnnotatedWithKeyword() {
 		return keyword != null
 	}

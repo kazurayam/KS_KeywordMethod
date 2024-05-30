@@ -11,6 +11,7 @@ import org.junit.runners.JUnit4
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+import com.kms.katalon.core.model.FailureHandling
 
 @RunWith(JUnit4.class)
 public class KeywordMethodTest {
@@ -39,12 +40,12 @@ public class KeywordMethodTest {
 	public void test_methodName() {
 		assertEquals("getAttribute", km.methodName())
 	}
-	
+
 	@Test
 	public void test_fragment() {
 		assertEquals("getAttribute(com.kms.katalon.core.testobject.TestObject,%20java.lang.String)", km.fragment())
 	}
-	
+
 	@Test
 	public void test_anchorName() {
 		assertEquals("getAttribute(com.kms.katalon.core.testobject.TestObject, java.lang.String)", km.anchorName())
@@ -66,5 +67,24 @@ public class KeywordMethodTest {
 		println str
 		String expected = "WebUI, Attribute, getAttribute(com.kms.katalon.core.testobject.TestObject, java.lang.String)"
 		assertEquals(expected, str)
+	}
+
+	@Test
+	public void test_constructor_with_strings() {
+		// given
+		KeywordMethod expected =
+				KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
+				AUTType.WebUI, "Alert", "acceptAlert",
+				new MethodParameters(Arrays.asList(FailureHandling.class)))
+		expected.setDescription("")
+		// when
+		String autType = "WebUI"
+		String group = "Alert"
+		String methodName = "acceptAlert"
+		String parameters = "(com.kms.katalon.core.model.FailureHandling)"
+		String description = ""
+		KeywordMethod actual = new KeywordMethod(autType, group, methodName, parameters, description)
+		// then
+		assertEquals(expected, actual)
 	}
 }

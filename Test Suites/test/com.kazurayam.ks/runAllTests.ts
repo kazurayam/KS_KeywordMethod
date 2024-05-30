@@ -26,6 +26,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>59adb227-371c-4d62-b92d-e310e881b7bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.ks/KeywordMethodDeserializerTestRunner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>305735fb-2d86-42ee-974a-c528926fcfa5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.ks/KeywordMethodSerializerTestRunner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>64ca4095-713f-437f-a024-433ccf69882c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
