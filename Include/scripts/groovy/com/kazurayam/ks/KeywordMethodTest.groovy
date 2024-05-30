@@ -19,7 +19,7 @@ public class KeywordMethodTest {
 
 	@Before
 	public void setup() {
-		km = KeywordUtil.getKeywordMethod(WebUiBuiltInKeywords.class,
+		km = KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
 				AUTType.WebUI, "Attribute", "getAttribute",
 				new MethodParameters(Arrays.asList(TestObject.class, String.class))
 				)

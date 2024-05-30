@@ -1,2 +1,3 @@
 - [output by Test Cases/main/printListOfKeyworMethod](./keywordList.txt)
-- [output by Test Cases/main/generateListOfKeywordMethodHTML](./keywordList.html)
+- [output by Test Cases/main/generateHtmlLinkedToJavadoc](./keywords-linked-to-javadoc.html)
+- [output by Test Cases/main/scrapeKatalonJavadocForKeywordDescription](./javadoc.json)

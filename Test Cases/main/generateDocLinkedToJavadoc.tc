@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>generateListOfKeywordMethodHTML</name>
+   <name>generateDocLinkedToJavadoc</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>003a32ac-0ce8-4799-8191-7e3938dcb9d8</testCaseGuid>

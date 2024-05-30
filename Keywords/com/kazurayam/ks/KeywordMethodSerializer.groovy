@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 
 
 /**
- * Custom Jackson Serializer for KeywordMethod class
+ * Custom Jackson Serializer that serializes a KeywordMethod class into JSON
  * 
  */
 public class KeywordMethodSerializer extends StdSerializer<KeywordMethod> {
