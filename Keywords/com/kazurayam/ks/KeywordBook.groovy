@@ -32,6 +32,10 @@ public class KeywordBook {
 	}
 
 	public static KeywordBook deserialize(Path jsonFile) {
-		throw new RuntimeException("TODO")
+		ObjectMapper mapper = new ObjectMapper()
+		SimpleModule module = new SimpleModule()
+		module.addDeserializer(KeywordMethod.class, new KeywordMethodDeserializer())
+		mapper.registerModule(module)
+		return mapper.readValue(jsonFile.toFile(), KeywordMethod.class)
 	}
 }

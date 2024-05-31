@@ -1,0 +1,2133 @@
+{
+  "WebUI" : [ {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "acceptAlert",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "acceptAlert",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "dismissAlert",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "dismissAlert",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "getAlertText",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "getAlertText",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "setAlertText",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "setAlertText",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "verifyAlertNotPresent",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "verifyAlertNotPresent",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "verifyAlertPresent",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "verifyAlertPresent",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "waitForAlert",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Alert",
+    "methodName" : "waitForAlert",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Attribute",
+    "methodName" : "getAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Attribute",
+    "methodName" : "getAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "authenticate",
+    "parameters" : "(java.lang.String, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "authenticate",
+    "parameters" : "(java.lang.String, java.lang.String, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "back",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "back",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "closeBrowser",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "closeBrowser",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "deleteAllCookies",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "deleteAllCookies",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "forward",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "forward",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "navigateToUrl",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "navigateToUrl",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "openBrowser",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "openBrowser",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "refresh",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "refresh",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "waitForAngularLoad",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "waitForAngularLoad",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "waitForJQueryLoad",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "waitForJQueryLoad",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "waitForPageLoad",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Browser",
+    "methodName" : "waitForPageLoad",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "check",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "check",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "uncheck",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "uncheck",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "verifyElementChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "verifyElementChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "verifyElementNotChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Checkbox",
+    "methodName" : "verifyElementNotChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectAllOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectAllOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectOptionByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectOptionByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectOptionByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectOptionByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectOptionByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "deselectOptionByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "getNumberOfSelectedOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "getNumberOfSelectedOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "getNumberOfTotalOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "getNumberOfTotalOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectAllOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectAllOption",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectOptionByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectOptionByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectOptionByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectOptionByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectOptionByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "selectOptionByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotPresentByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotPresentByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotPresentByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotPresentByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotSelectedByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotSelectedByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotSelectedByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotSelectedByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotSelectedByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionNotSelectedByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionPresentByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionPresentByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionPresentByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionPresentByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionSelectedByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionSelectedByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Object, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionSelectedByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionSelectedByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionSelectedByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionSelectedByValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionsPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Combo Box",
+    "methodName" : "verifyOptionsPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "clearText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "clearText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "click",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "click",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "clickOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "clickOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "convertWebElementToTestObject",
+    "parameters" : "(org.openqa.selenium.WebElement, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "convertWebElementToTestObject",
+    "parameters" : "(org.openqa.selenium.WebElement)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "disableSmartWait",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "doubleClick",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "doubleClick",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "dragAndDropByOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "dragAndDropByOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "dragAndDropToObject",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "dragAndDropToObject",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "enableSmartWait",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "enhancedClick",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "enhancedClick",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "findWebElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "findWebElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "findWebElements",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "findWebElements",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "focus",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "focus",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getAllLinksOnCurrentPage",
+    "parameters" : "(boolean, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getAllLinksOnCurrentPage",
+    "parameters" : "(boolean, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getCSSValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getCSSValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getElementHeight",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getElementHeight",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getElementLeftPosition",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getElementLeftPosition",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getElementWidth",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "getElementWidth",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "mouseOver",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "mouseOver",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "mouseOverOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "mouseOverOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "rightClick",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "rightClick",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "rightClickOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "rightClickOffset",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "scrollToElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "scrollToElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "uploadFileWithDragAndDrop",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "uploadFileWithDragAndDrop",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "uploadFileWithDragAndDrop",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "uploadFileWithDragAndDrop",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyAllLinksOnCurrentPageAccessible",
+    "parameters" : "(boolean, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyAllLinksOnCurrentPageAccessible",
+    "parameters" : "(boolean, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotVisibleInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementNotVisibleInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementVisibleInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyElementVisibleInViewport",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyLinksAccessible",
+    "parameters" : "(java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "verifyLinksAccessible",
+    "parameters" : "(java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotClickable",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementNotVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Element",
+    "methodName" : "waitForElementVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Form",
+    "methodName" : "submit",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Form",
+    "methodName" : "submit",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Frame",
+    "methodName" : "switchToDefaultContent",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Frame",
+    "methodName" : "switchToDefaultContent",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Frame",
+    "methodName" : "switchToFrame",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Frame",
+    "methodName" : "switchToFrame",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "clickImage",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "clickImage",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "typeOnImage",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "typeOnImage",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "verifyImagePresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "verifyImagePresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "waitForImagePresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Image",
+    "methodName" : "waitForImagePresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Keyboard",
+    "methodName" : "sendKeys",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Keyboard",
+    "methodName" : "sendKeys",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Keyboard",
+    "methodName" : "uploadFile",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Keyboard",
+    "methodName" : "uploadFile",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThan",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThan",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyLessThan",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyLessThan",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyLessThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyLessThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyNotEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Number",
+    "methodName" : "verifyNotEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "concatenate",
+    "parameters" : "([Ljava.lang.String;, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "concatenate",
+    "parameters" : "([Ljava.lang.String;)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "getText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "getText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "setEncryptedText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "setEncryptedText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "setMaskedText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "setMaskedText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "setText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "setText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyNotMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyNotMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyTextNotPresent",
+    "parameters" : "(java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyTextNotPresent",
+    "parameters" : "(java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyTextPresent",
+    "parameters" : "(java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Text",
+    "methodName" : "verifyTextPresent",
+    "parameters" : "(java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "callTestCase",
+    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "callTestCase",
+    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "comment",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "delay",
+    "parameters" : "(java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "delay",
+    "parameters" : "(java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "modifyObjectProperty",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "modifyObjectProperty",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "removeObjectProperty",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "removeObjectProperty",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "(java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshot",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeFullPageScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.lang.String, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.lang.String, java.util.Map)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.util.Map, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.util.Map)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "verifyCheckpoint",
+    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Utilities",
+    "methodName" : "verifyCheckpoint",
+    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "closeWindowIndex",
+    "parameters" : "(java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "closeWindowIndex",
+    "parameters" : "(java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "closeWindowTitle",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "closeWindowTitle",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "closeWindowUrl",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "closeWindowUrl",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "executeJavaScript",
+    "parameters" : "(java.lang.String, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "executeJavaScript",
+    "parameters" : "(java.lang.String, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getPageHeight",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getPageHeight",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getPageWidth",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getPageWidth",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getUrl",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getUrl",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportHeight",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportHeight",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportLeftPosition",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportLeftPosition",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportTopPosition",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportTopPosition",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportWidth",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getViewportWidth",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getWindowIndex",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getWindowIndex",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getWindowTitle",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "getWindowTitle",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "maximizeWindow",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "maximizeWindow",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "scrollToPosition",
+    "parameters" : "(int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "scrollToPosition",
+    "parameters" : "(int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "setViewPortSize",
+    "parameters" : "(int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "setViewPortSize",
+    "parameters" : "(int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "switchToWindowIndex",
+    "parameters" : "(java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "switchToWindowIndex",
+    "parameters" : "(java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "switchToWindowTitle",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "switchToWindowTitle",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "switchToWindowUrl",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WebUI",
+    "group" : "Window",
+    "methodName" : "switchToWindowUrl",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  } ]
+}

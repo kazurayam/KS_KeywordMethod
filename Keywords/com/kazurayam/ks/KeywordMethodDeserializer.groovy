@@ -21,18 +21,19 @@ public class KeywordMethodDeserializer extends StdDeserializer<KeywordMethod> {
 	}
 
 	/*
-  {
-    "autType" : "WebUI",
-    "group" : "Alert",
-    "methodName" : "acceptAlert",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : "mayday"
-  }
+	 {
+	 "autType" : "WebUI",
+	 "group" : "Alert",
+	 "methodName" : "acceptAlert",
+	 "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+	 "description" : "mayday"
+	 }
 	 */
 	@Override
 	public KeywordMethod deserialize(JsonParser jp, DeserializationContext ctxt)
 	throws IOException, JsonProcessingException {
 		JsonNode node = jp.getCodec().readTree(jp);
+		println node
 		String autType = node.get("autType").asText()
 		String group = node.get("group").asText()
 		String methodName = node.get("methodName").asText()
