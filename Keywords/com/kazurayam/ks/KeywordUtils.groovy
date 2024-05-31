@@ -11,6 +11,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 public class KeywordUtils {
 
+	static KeywordMethod getKeywordMethod(Class<?> clazz,
+											AUTType autType,
+											String keywordGroup,
+											String methodName,
+											MethodParameters parameters) {
+		List<KeywordMethod> list = KeywordUtils.getKeywordMethods(clazz)
+		for (KeywordMethod km : list) {
+			if (km.autType() == autType &&
+					km.keywordGroup() == keywordGroup &&
+					km.methodName() == methodName &&
+					km.getMethodParameters() == parameters) {
+				return km
+			}
+		}
+		return null
+	}
+
 	static List<Method> getAccessibleMethods(Class<?> clazz) {
 		List<Method> result = new ArrayList<Method>()
 		while (clazz != null) {
@@ -42,19 +59,6 @@ public class KeywordUtils {
 		return keywordMethods
 	}
 
-	static KeywordMethod getKeywordMethod(Class<?> clazz, AUTType autType,
-			String keywordGroup, String methodName, MethodParameters parameters) {
-		List<KeywordMethod> list = KeywordUtils.getKeywordMethods(clazz)
-		for (KeywordMethod km : list) {
-			if (km.autType() == autType &&
-					km.keywordGroup() == keywordGroup &&
-					km.methodName() == methodName &&
-					km.getMethodParameters() == parameters) {
-				return km
-			}
-		}
-		return null
-	}
 
 	/**
 	 * Using the Selenium WebDriver, opens the JavaDoc URL of Katalon API, 

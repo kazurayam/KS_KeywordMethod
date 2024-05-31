@@ -24,7 +24,8 @@ public class KeywordMethodSerializerTest {
 		// given
 		KeywordMethod km = KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
 								AUTType.WebUI, "Alert", "acceptAlert",
-								Arrays.asList(FailureHandling.class))
+								new MethodParameters(Arrays.asList(FailureHandling.class))
+								)
 		ObjectMapper mapper = new ObjectMapper()
 		SimpleModule module = new SimpleModule()
 		module.addSerializer(KeywordMethod.class, new KeywordMethodSerializer())

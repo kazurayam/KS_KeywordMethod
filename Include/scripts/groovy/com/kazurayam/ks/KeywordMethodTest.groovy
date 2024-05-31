@@ -76,13 +76,13 @@ public class KeywordMethodTest {
 				KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
 				AUTType.WebUI, "Alert", "acceptAlert",
 				new MethodParameters(Arrays.asList(FailureHandling.class)))
-		expected.setDescription("")
+		expected.setDescription("mayday")
 		// when
 		String autType = "WebUI"
 		String group = "Alert"
 		String methodName = "acceptAlert"
 		String parameters = "(com.kms.katalon.core.model.FailureHandling)"
-		String description = ""
+		String description = "mayday"
 		KeywordMethod actual = new KeywordMethod(autType, group, methodName, parameters, description)
 		// then
 		assertEquals(expected, actual)

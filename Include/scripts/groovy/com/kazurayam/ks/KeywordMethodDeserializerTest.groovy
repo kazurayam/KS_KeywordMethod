@@ -25,7 +25,7 @@ public class KeywordMethodDeserializerTest {
     "group" : "Alert",
     "methodName" : "acceptAlert",
     "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
+    "description" : "mayday"
   }'''
 		ObjectMapper mapper = new ObjectMapper()
 		SimpleModule module = new SimpleModule()
@@ -36,5 +36,7 @@ public class KeywordMethodDeserializerTest {
 		KeywordMethod actual = mapper.readValue(json, KeywordMethod.class)
 		// then
 		assertNotNull(actual)
+		assertEquals("mayday", actual.description())
+		println actual.toString()
 	}
 }

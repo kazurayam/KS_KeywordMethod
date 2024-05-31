@@ -1,8 +1,10 @@
 package com.kazurayam.ks
 
 import java.lang.reflect.Method
+import java.util.stream.Collectors
 
 import com.kms.katalon.core.annotation.Keyword
+
 
 class KeywordMethod implements Comparable<KeywordMethod> {
 
@@ -17,13 +19,31 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		this.autType = autType
 		this.method = method
 		if (method.getDeclaredAnnotation(Keyword.class) != null) {
-			keyword = (Keyword)method.getDeclaredAnnotation(Keyword.class)
+			this.keyword = (Keyword)method.getDeclaredAnnotation(Keyword.class)
 		}
 		this.description = ""
 	}
 
-	KeywordMethod(String autType, String group, String methodName, String methodParameters, String description) {
-		throw new RuntimeException("TODO")
+	KeywordMethod(String autTypeStr, String groupStr, String methodNameStr, String methodParametersStr, String descriptionStr) {
+		List<KeywordMethod> kmList = KeywordUtils.getKeywordMethods(AUTType.valueOf(autTypeStr).getKeywordsClass())
+		List<KeywordMethod> filtered =
+				kmList.stream()
+					.filter { km -> km.keywordGroup() == groupStr }
+					.filter { km -> km.methodName() == methodNameStr }
+					.filter { km -> km.getMethodParameters().toString() == methodParametersStr }
+					.collect(Collectors.toList())
+		if (filtered.size() == 1) {
+			KeywordMethod km = filtered.get(0)
+			this.autType = km.autType()
+			this.method = km.method()
+			if (method.getDeclaredAnnotation(Keyword.class) != null) {
+				this.keyword = (Keyword)method.getDeclaredAnnotation(Keyword.class)
+			}
+			this.description = descriptionStr
+		} else {
+			throw new IllegalArgumentException(
+			"autType=\"${autTypeStr}\", group=\"${groupStr}\", methodName=\"${methodNameStr}\", methodParameters=\"${methodParametersStr}\", description=\"${descriptionStr}\"")
+		}
 	}
 
 	boolean isAnnotatedWithKeyword() {
@@ -92,7 +112,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		return  this.autType() == other.autType() &&
 				this.keywordGroup() == other.keywordGroup() &&
 				this.methodName() == other.methodName() &&
-				this.signature() == other.signature()
+				this.getMethodParameters() == other.getMethodParameters()
 	}
 
 	@Override
@@ -108,7 +128,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 	@Override
 	String toString() {
 		String s = "${autType().toString()}, ${keywordGroup()}, ${methodName()}${getMethodParameters().toString()}"
-		if (description().length() > 0) {
+		if (description() != null && description().length() > 0) {
 			s += ", \"${description()}\""
 		}
 		return s
