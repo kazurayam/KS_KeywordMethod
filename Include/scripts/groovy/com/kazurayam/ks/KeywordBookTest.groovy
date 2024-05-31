@@ -22,10 +22,10 @@ public class KeywordBookTest {
 	private static Path projDir = Paths.get(RunConfiguration.getProjectDir())
 
 	private static TestOutputOrganizer too =
-	new TestOutputOrganizer.Builder(KeywordBookTest.class)
-	.projectDirectory(projDir)
-	.subOutputDirectory(KeywordBookTest.class)
-	.build()
+		new TestOutputOrganizer.Builder(KeywordBookTest.class)
+			.projectDirectory(projDir)
+			.subOutputDirectory(KeywordBookTest.class)
+			.build()
 
 	@BeforeClass
 	public static void beforeClass() throws IOException {
@@ -81,7 +81,5 @@ public class KeywordBookTest {
 		// then
 		assertNotNull(list2)
 		assertTrue(list2.size() > 0)
-		
-		
 	}
 }

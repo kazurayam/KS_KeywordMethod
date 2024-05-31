@@ -12,10 +12,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 public class KeywordUtils {
 
 	static KeywordMethod getKeywordMethod(Class<?> clazz,
-											AUTType autType,
-											String keywordGroup,
-											String methodName,
-											MethodParameters parameters) {
+			AUTType autType,
+			String keywordGroup,
+			String methodName,
+			MethodParameters parameters) {
 		List<KeywordMethod> list = KeywordUtils.getKeywordMethods(clazz)
 		for (KeywordMethod km : list) {
 			if (km.autType() == autType &&

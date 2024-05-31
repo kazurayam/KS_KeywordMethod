@@ -28,10 +28,10 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 		List<KeywordMethod> kmList = KeywordUtils.getKeywordMethods(AUTType.valueOf(autTypeStr).getKeywordsClass())
 		List<KeywordMethod> filtered =
 				kmList.stream()
-					.filter { km -> km.keywordGroup() == groupStr }
-					.filter { km -> km.methodName() == methodNameStr }
-					.filter { km -> km.getMethodParameters().toString() == methodParametersStr }
-					.collect(Collectors.toList())
+				.filter { km -> km.keywordGroup() == groupStr }
+				.filter { km -> km.methodName() == methodNameStr }
+				.filter { km -> km.getMethodParameters().toString() == methodParametersStr }
+				.collect(Collectors.toList())
 		if (filtered.size() == 1) {
 			KeywordMethod km = filtered.get(0)
 			this.autType = km.autType()

@@ -23,9 +23,9 @@ public class KeywordMethodSerializerTest {
 	void test_serialize() {
 		// given
 		KeywordMethod km = KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
-								AUTType.WebUI, "Alert", "acceptAlert",
-								new MethodParameters(Arrays.asList(FailureHandling.class))
-								)
+				AUTType.WebUI, "Alert", "acceptAlert",
+				new MethodParameters(Arrays.asList(FailureHandling.class))
+				)
 		ObjectMapper mapper = new ObjectMapper()
 		SimpleModule module = new SimpleModule()
 		module.addSerializer(KeywordMethod.class, new KeywordMethodSerializer())
@@ -33,12 +33,12 @@ public class KeywordMethodSerializerTest {
 		// when
 		String json = mapper.writeValueAsString(km)
 		//String json = '''{
-//    "autType" : "WebUI",
-//    "group" : "Alert",
-//    "methodName" : "acceptAlert",
-//    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-//    "description" : ""
-//  }'''
+		//    "autType" : "WebUI",
+		//    "group" : "Alert",
+		//    "methodName" : "acceptAlert",
+		//    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+		//    "description" : ""
+		//  }'''
 		println json
 		assertTrue(json.contains("autType") && json.contains("WebUI"))
 		assertTrue(json.contains("group") && json.contains("Alert"))
