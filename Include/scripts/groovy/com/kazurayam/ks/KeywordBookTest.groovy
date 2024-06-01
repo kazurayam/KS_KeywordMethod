@@ -22,10 +22,10 @@ public class KeywordBookTest {
 	private static Path projDir = Paths.get(RunConfiguration.getProjectDir())
 
 	private static TestOutputOrganizer too =
-		new TestOutputOrganizer.Builder(KeywordBookTest.class)
-			.projectDirectory(projDir)
-			.subOutputDirectory(KeywordBookTest.class)
-			.build()
+	new TestOutputOrganizer.Builder(KeywordBookTest.class)
+	.projectDirectory(projDir)
+	.subOutputDirectory(KeywordBookTest.class)
+	.build()
 
 	@BeforeClass
 	public static void beforeClass() throws IOException {
@@ -60,7 +60,7 @@ public class KeywordBookTest {
 		// when
 		Path dir = too.cleanMethodOutputDirectory("test_serialize")
 		Path file = dir.resolve("KeywordBook.json")
-		kb.serialize(file)
+		kb.serializeInto(file)
 		// then
 		assertTrue(Files.exists(file))
 		assertTrue(file.toFile().length() > 100)  // has some content
@@ -74,9 +74,9 @@ public class KeywordBookTest {
 		kb1.setKeywordMethods(AUTType.WebUI, list1)
 		Path dir = too.cleanMethodOutputDirectory("test_deserialize")
 		Path file = dir.resolve("KeywordBook.json")
-		kb1.serialize(file)
+		kb1.serializeInto(file)
 		// when
-		KeywordBook kb2 = KeywordBook.deserialize(file)
+		KeywordBook kb2 = KeywordBook.deserializeFrom(file)
 		List<KeywordMethod> list2 = kb2.getKeywordMethods(AUTType.WebUI)
 		// then
 		assertNotNull(list2)

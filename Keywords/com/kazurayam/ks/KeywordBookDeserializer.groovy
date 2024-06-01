@@ -33,5 +33,29 @@ public class KeywordBookDeserializer extends StdDeserializer<KeywordBook> {
 	 */
 	@Override
 	public KeywordBook deserialize(JsonParser jp, DeserializationContext ctxt) throws IOException, JsonProcessingException {
+		KeywordBook kb = new KeywordBook()
+		JsonNode rootNode = jp.getCodec().readTree(jp);
+		for (String autTypeId : rootNode.fieldNames()) {
+			//println "autTypeId: " + autTypeId
+			for (JsonNode arrayKM : rootNode.findValues(autTypeId)) {
+				//println "arrayKM.isArray(): " + arrayKM.isArray()
+				if (arrayKM.isArray()) {
+					for (JsonNode node : arrayKM.iterator()) {
+						String autType = node.get("autType").asText()
+						String group = node.get("group").asText()
+						String methodName = node.get("methodName").asText()
+						String parameters = node.get("parameters").asText()
+						String description = node.get("description").asText()
+						KeywordMethod km =
+							new KeywordMethod(autType, group, methodName, parameters, description)
+						kb.addKeywordMethod(km)
+					}
+				} else {
+					throw new JsonProcessingException("expected json array but found a JsonNode of type: " + 
+						arrayKM.getNodeType())
+				}
+			}
+		}
+		return kb
 	}
 }

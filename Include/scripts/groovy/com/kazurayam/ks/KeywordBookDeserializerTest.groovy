@@ -36,8 +36,11 @@ public class KeywordBookDeserializerTest {
 		mapper.registerModule(module)
 		// when
 		KeywordBook actual = mapper.readValue(json, KeywordBook.class)
+		println actual.serializeAsText()
 		// then
 		assertNotNull(actual)
-		throw new RuntimeException("TODO")
+		assertNull(actual.getKeywordMethods(AUTType.WS))
+		assertNotNull(actual.getKeywordMethods(AUTType.WebUI))
+		assertTrue(actual.getKeywordMethods(AUTType.WebUI).size() == 1)
 	}
 }

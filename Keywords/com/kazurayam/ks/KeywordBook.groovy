@@ -14,9 +14,20 @@ public class KeywordBook {
 		this.collection = new HashMap<>()
 	}
 
-
 	public void setKeywordMethods(AUTType autType, List<KeywordMethod> list) {
 		collection.put(autType, list)
+	}
+
+	public void addKeywordMethod(KeywordMethod keywordMethod) {
+		if (collection.keySet().contains(keywordMethod.autType())) {
+			// the key AUTType is found, add the KM into the existing list
+			collection.get(keywordMethod.autType()).add(keywordMethod)
+		} else {
+			// new AUTType, create a new list and add the KM
+			List<KeywordMethod> list = new ArrayList<>()
+			list.add(keywordMethod)
+			collection.put(keywordMethod.autType(), list)
+		}
 	}
 
 	public Set<AUTType> keySet() {
@@ -28,21 +39,50 @@ public class KeywordBook {
 	}
 
 	public void serializeInto(Path jsonFile) throws IOException {
+		File f = jsonFile.toFile()
+		OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(f), "utf-8")
+		this.serializeInto(osw)
+	}
+	
+	public String serializeAsText() throws IOException {
+		StringWriter sw = new StringWriter()
+		this.serializeInto(sw)
+		return sw.toString()
+	}
+	
+	public void serializeInto(Writer writer) throws IOException {
 		ObjectMapper mapper = new ObjectMapper()
 		mapper.configure(SerializationFeature.INDENT_OUTPUT, true)
 		SimpleModule module = new SimpleModule()
 		module.addSerializer(KeywordBook.class, new KeywordBookSerializer())
 		module.addSerializer(KeywordMethod.class, new KeywordMethodSerializer())
 		mapper.registerModule(module)
-		mapper.writeValue(jsonFile.toFile(), collection)
+		mapper.writeValue(writer, collection)
 	}
 
 	public static KeywordBook deserializeFrom(Path jsonFile) {
+		File f = jsonFile.toFile()
+		InputStreamReader isr = new InputStreamReader(new FileInputStream(f), "utf-8")
+		return KeywordBook.deserializeFrom(isr)	
+	}
+	
+	public static KeywordBook deserializeFrom(StringReader sr) {
+		return KeywordBook.deserializeFrom(sr)
+	}
+	
+	public static KeywordBook deserializeFrom(Reader reader) {
 		ObjectMapper mapper = new ObjectMapper()
 		SimpleModule module = new SimpleModule()
 		module.addDeserializer(KeywordBook.class, new KeywordBookDeserializer())
 		module.addDeserializer(KeywordMethod.class, new KeywordMethodDeserializer())
 		mapper.registerModule(module)
-		return mapper.readValue(jsonFile.toFile(), KeywordBook.class)
+		return mapper.readValue(reader, KeywordBook.class)
+	}
+	
+	@Override
+	public String toString() {
+		StringWriter sw = new StringWriter()
+		this.serializeInto(sw)
+		return sw.toString()
 	}
 }

@@ -19,17 +19,17 @@ import java.nio.file.Paths
 
 @RunWith(JUnit4.class)
 public class KeywordBookSerializerTest {
-	
+
 	private static Path projDir = Paths.get(RunConfiguration.getProjectDir())
-	
-	private static TestOutputOrganizer too = 
-		new TestOutputOrganizer.Builder(KeywordBookSerializerTest.class)
-			.projectDirectory(projDir)
-			.subOutputDirectory(KeywordBookSerializerTest.class)
-			.build()
-	
+
+	private static TestOutputOrganizer too =
+	new TestOutputOrganizer.Builder(KeywordBookSerializerTest.class)
+	.projectDirectory(projDir)
+	.subOutputDirectory(KeywordBookSerializerTest.class)
+	.build()
+
 	private KeywordBook kb
-	
+
 	@BeforeClass
 	public static void beforeClass() throws IOException {
 		too.cleanOutputDirectory()
@@ -41,7 +41,7 @@ public class KeywordBookSerializerTest {
 		kb = new KeywordBook()
 		kb.setKeywordMethods(AUTType.WebUI, list1)
 	}
-	
+
 	@Test
 	public void test_serializeInto() {
 		// given
@@ -54,5 +54,4 @@ public class KeywordBookSerializerTest {
 		assertTrue(Files.exists(json))
 		assertTrue(json.toFile().length() > 0)
 	}
-	
 }
