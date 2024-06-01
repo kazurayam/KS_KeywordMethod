@@ -2,6 +2,7 @@ package com.kazurayam.ks
 
 import static org.junit.Assert.*
 
+import org.junit.Before
 import org.junit.BeforeClass
 import org.junit.Ignore
 import org.junit.Test
@@ -11,6 +12,8 @@ import org.junit.runners.JUnit4
 import com.kazurayam.ks.KeywordUtils as KU
 import com.kazurayam.unittest.TestOutputOrganizer
 import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 import java.nio.file.Files
 import java.nio.file.Path
@@ -27,28 +30,61 @@ public class KeywordBookTest {
 	.subOutputDirectory(KeywordBookTest.class)
 	.build()
 
+	private KeywordBook kb
+
 	@BeforeClass
 	public static void beforeClass() throws IOException {
 		too.cleanOutputDirectory()
 	}
 
-	@Test
-	public void test_constructor() {
-		KeywordBook kb = new KeywordBook()
-		assertNotNull(kb)
+	@Before
+	public void setup() {
+		kb = new KeywordBook()
+		List<KeywordMethod> list = KU.getKeywordMethods(AUTType.WebUI.getKeywordsClass())
+		kb.setKeywordMethods(AUTType.WebUI, list)
 	}
 
 	@Test
-	public void test_set_and_get_KeywordMethods() {
-		// given
-		List<KeywordMethod> list1 = KU.getKeywordMethods(AUTType.WebUI.getKeywordsClass())
-		KeywordBook kb = new KeywordBook()
-		kb.setKeywordMethods(AUTType.WebUI, list1)
+	public void test_constructor() {
+		KeywordBook kb0 = new KeywordBook()
+		assertNotNull(kb0)
+	}
+
+	@Test
+	public void test_setKeywordMethod_getKeywordMethod() {
 		// when
-		List<KeywordMethod> list2 = kb.getKeywordMethods(AUTType.WebUI)
+		KeywordMethod km = kb.getKeywordMethod(AUTType.WebUI, 1)
+		km.setDescription("mayday")
+		kb.setKeywordMethod(AUTType.WebUI, km)
 		// then
-		assertNotNull(list2)
-		assertEquals(list1.size(), list2.size())
+		KeywordMethod km2 = kb.getKeywordMethod(AUTType.WebUI, 1)
+		assertNotNull(km2)
+		assertEquals("mayday", km2.description())
+	}
+
+	@Test
+	public void test_getKeywordMethod_with_base() {
+		// when
+		KeywordMethod base = KU.getKeywordMethod(WebUiBuiltInKeywords.class, AUTType.WebUI, "Alert", "acceptAlert", new MethodParameters(Arrays.asList(FailureHandling.class)))
+		KeywordMethod found = kb.getKeywordMethod(AUTType.WebUI, base)
+		assertNotNull(found)
+	}
+
+	@Test
+	public void test_setKeywordMethods_getKeywordMethods_sizeOfKeywordMethods() {
+		// given
+		List<KeywordMethod> list2 = KU.getKeywordMethods(AUTType.WS.getKeywordsClass())
+		// when
+		kb.setKeywordMethods(AUTType.WS, list2)
+		// then
+		assertTrue(kb.getKeywordMethods(AUTType.WS).size() > 0)
+	}
+
+	@Test
+	public void test_getKeywordMethod() {
+		KeywordMethod km = kb.getKeywordMethod(AUTType.WebUI, 0)
+		assertNotNull(km)
+		assertEquals("acceptAlert", km.methodName())
 	}
 
 	@Test

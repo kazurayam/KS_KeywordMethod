@@ -48,7 +48,7 @@ public class KeywordBookDeserializer extends StdDeserializer<KeywordBook> {
 						String description = node.get("description").asText()
 						KeywordMethod km =
 							new KeywordMethod(autType, group, methodName, parameters, description)
-						kb.addKeywordMethod(km)
+						kb.setKeywordMethod(AUTType.valueOf(autType), km)
 					}
 				} else {
 					throw new JsonProcessingException("expected json array but found a JsonNode of type: " + 
