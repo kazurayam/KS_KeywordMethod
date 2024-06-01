@@ -21,7 +21,7 @@ void listKeywords(AUTType autType, StringBuilder sb) {
 			 sb.append(km.javadocUrl())
 			 sb.append("\">")
 			 sb.append(km.methodName())
-			 sb.append(km.signature().toString())
+			 sb.append(km.getMethodParameters().toString())
 			 sb.append("</a>")
 			 sb.append("</li>")
 			 sb.append("\n")
