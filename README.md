@@ -39,3 +39,5 @@ TODO
 ## My thoughts
 
 Through the programming lesson here, I learned a lot about the Java Reflection API, especially [java.lang.reflect.Method](https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Method.html).
+
+I have released the v1.4.1 which included KeywordBook class. I enjoyed developping the KeywordBook class employing the Jackson Databind JSON utility. I think I have done enough. I would stop this.
