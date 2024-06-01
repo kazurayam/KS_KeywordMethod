@@ -5,10 +5,23 @@ import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.databind.module.SimpleModule
 
 import java.nio.file.Path
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords
 
 public class KeywordBook {
 
 	private Map<AUTType, List<KeywordMethod>> collection
+
+	static KeywordBook createKeywordBook() {
+		KeywordBook kb = new KeywordBook()
+		kb.setKeywordMethods(AUTType.WebUI, KeywordUtils.getKeywordMethods(WebUiBuiltInKeywords.class))
+		kb.setKeywordMethods(AUTType.WS, KeywordUtils.getKeywordMethods(WSBuiltInKeywords.class))
+		kb.setKeywordMethods(AUTType.Mobile, KeywordUtils.getKeywordMethods(MobileBuiltInKeywords.class))
+		kb.setKeywordMethods(AUTType.Windows, KeywordUtils.getKeywordMethods(WindowsBuiltinKeywords.class))
+		return kb
+	}
 
 	public KeywordBook() {
 		this.collection = new HashMap<>()
@@ -43,13 +56,13 @@ public class KeywordBook {
 		OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(f), "utf-8")
 		this.serializeInto(osw)
 	}
-	
+
 	public String serializeAsText() throws IOException {
 		StringWriter sw = new StringWriter()
 		this.serializeInto(sw)
 		return sw.toString()
 	}
-	
+
 	public void serializeInto(Writer writer) throws IOException {
 		ObjectMapper mapper = new ObjectMapper()
 		mapper.configure(SerializationFeature.INDENT_OUTPUT, true)
@@ -63,13 +76,13 @@ public class KeywordBook {
 	public static KeywordBook deserializeFrom(Path jsonFile) {
 		File f = jsonFile.toFile()
 		InputStreamReader isr = new InputStreamReader(new FileInputStream(f), "utf-8")
-		return KeywordBook.deserializeFrom(isr)	
+		return KeywordBook.deserializeFrom(isr)
 	}
-	
+
 	public static KeywordBook deserializeFrom(StringReader sr) {
 		return KeywordBook.deserializeFrom(sr)
 	}
-	
+
 	public static KeywordBook deserializeFrom(Reader reader) {
 		ObjectMapper mapper = new ObjectMapper()
 		SimpleModule module = new SimpleModule()
@@ -78,7 +91,7 @@ public class KeywordBook {
 		mapper.registerModule(module)
 		return mapper.readValue(reader, KeywordBook.class)
 	}
-	
+
 	@Override
 	public String toString() {
 		StringWriter sw = new StringWriter()

@@ -82,4 +82,13 @@ public class KeywordBookTest {
 		assertNotNull(list2)
 		assertTrue(list2.size() > 0)
 	}
+
+	@Test
+	public void test_createKeywordBook() {
+		KeywordBook kb = KeywordBook.createKeywordBook()
+		assertTrue(kb.getKeywordMethods(AUTType.WebUI).size() > 0)
+		assertTrue(kb.getKeywordMethods(AUTType.WS).size() > 0)
+		assertTrue(kb.getKeywordMethods(AUTType.Mobile).size() > 0)
+		assertTrue(kb.getKeywordMethods(AUTType.Windows).size() > 0)
+	}
 }
