@@ -2,8 +2,8 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 
-import com.kazurayam.ks.AUTType
-import com.kazurayam.ks.KeywordBook
+import com.kazurayam.katalon.keyword.AUTType
+import com.kazurayam.katalon.keyword.KeywordBook
 import com.kms.katalon.core.configuration.RunConfiguration
 
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())

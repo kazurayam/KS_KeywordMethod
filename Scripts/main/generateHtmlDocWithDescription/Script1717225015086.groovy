@@ -1,8 +1,8 @@
 // Test Cases/generateDocLinkedToJavadoc
 
-import com.kazurayam.ks.AUTType
-import com.kazurayam.ks.KeywordMethod
-import com.kazurayam.ks.KeywordUtils as KU
+import com.kazurayam.katalon.keyword.AUTType
+import com.kazurayam.katalon.keyword.KeywordMethod
+import com.kazurayam.katalon.keyword.KeywordUtils as KU
 
 import java.nio.file.Files
 import java.nio.file.Path
