@@ -64,7 +64,7 @@
       <guid>90baf655-fff8-4678-8cb8-c0904e33c073</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/KeywordUtilsTestRunner</testCaseId>
+      <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/KeywordMethodFactoryTestRunner</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

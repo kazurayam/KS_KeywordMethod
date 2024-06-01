@@ -2,7 +2,7 @@
 
 import com.kazurayam.katalon.keyword.AUTType
 import com.kazurayam.katalon.keyword.KeywordMethod
-import com.kazurayam.katalon.keyword.KeywordUtils as KU
+import com.kazurayam.katalon.keyword.KeywordMethodFactory as KMF
 
 import java.nio.file.Files
 import java.nio.file.Path
@@ -11,7 +11,7 @@ import java.nio.file.Paths
 import static org.apache.commons.lang.StringEscapeUtils.escapeHtml
 
 void listKeywords(AUTType autType, StringBuilder sb) {
-	 List<KeywordMethod> methods = KU.getKeywordMethods(autType.getKeywordsClass())
+	 List<KeywordMethod> methods = KMF.getKeywordMethods(autType.getKeywordsClass())
 	 methods.stream()
 		 .each({ KeywordMethod km ->
 			 sb.append("<li><span class=\"autType\">")

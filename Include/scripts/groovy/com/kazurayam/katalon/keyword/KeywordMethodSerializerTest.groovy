@@ -22,7 +22,7 @@ public class KeywordMethodSerializerTest {
 	@Test
 	void test_serialize() {
 		// given
-		KeywordMethod km = KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
+		KeywordMethod km = KeywordMethodFactory.getKeywordMethod(WebUiBuiltInKeywords.class,
 				AUTType.WebUI, "Alert", "acceptAlert",
 				new MethodParameters(Arrays.asList(FailureHandling.class))
 				)

@@ -2,13 +2,13 @@
 
 import com.kazurayam.katalon.keyword.AUTType
 import com.kazurayam.katalon.keyword.KeywordMethod
-import com.kazurayam.katalon.keyword.KeywordUtils as KU
+import com.kazurayam.katalon.keyword.KeywordMethodFactory as KMF
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 
 void printKeywords(AUTType autType, BufferedWriter bw) {
-	 List<KeywordMethod> methods = KU.getKeywordMethods(autType.getKeywordsClass())
+	 List<KeywordMethod> methods = KMF.getKeywordMethods(autType.getKeywordsClass())
 	 methods.stream()
 	 	.each({ KeywordMethod km -> bw.println(km.toString()) })
 }

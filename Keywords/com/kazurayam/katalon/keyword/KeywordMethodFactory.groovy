@@ -9,14 +9,14 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-public class KeywordUtils {
+public class KeywordMethodFactory {
 
 	static KeywordMethod getKeywordMethod(Class<?> clazz,
 			AUTType autType,
 			String keywordGroup,
 			String methodName,
 			MethodParameters parameters) {
-		List<KeywordMethod> list = KeywordUtils.getKeywordMethods(clazz)
+		List<KeywordMethod> list = KeywordMethodFactory.getKeywordMethods(clazz)
 		for (KeywordMethod km : list) {
 			if (km.autType() == autType &&
 					km.keywordGroup() == keywordGroup &&
@@ -44,7 +44,7 @@ public class KeywordUtils {
 	}
 
 	static List<KeywordMethod> getKeywordMethods(Class<?> clazz) {
-		List<Method> allMethods = KeywordUtils.getAccessibleMethods(clazz)
+		List<Method> allMethods = KeywordMethodFactory.getAccessibleMethods(clazz)
 		AUTType autType = AUTType.resolve(clazz)
 		if (autType == null) {
 			throw new RuntimeException("Unable to resolve AUTType of " +

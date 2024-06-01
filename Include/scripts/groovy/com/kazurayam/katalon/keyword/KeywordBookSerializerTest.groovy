@@ -9,7 +9,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 
-import com.kazurayam.katalon.keyword.KeywordUtils as KU
+import com.kazurayam.katalon.keyword.KeywordMethodFactory as KU
 import com.kazurayam.unittest.TestOutputOrganizer
 import com.kms.katalon.core.configuration.RunConfiguration
 

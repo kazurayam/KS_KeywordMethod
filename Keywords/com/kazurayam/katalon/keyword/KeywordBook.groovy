@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.databind.module.SimpleModule
 import com.kazurayam.katalon.keyword.TestObjectUtils as TOU
-import com.kazurayam.katalon.keyword.KeywordUtils as KU
+import com.kazurayam.katalon.keyword.KeywordMethodFactory as KU
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
@@ -20,10 +20,10 @@ public class KeywordBook {
 
 	static KeywordBook createKeywordBook() {
 		KeywordBook kb = new KeywordBook()
-		kb.setKeywordMethods(AUTType.WebUI, KeywordUtils.getKeywordMethods(WebUiBuiltInKeywords.class))
-		kb.setKeywordMethods(AUTType.WS, KeywordUtils.getKeywordMethods(WSBuiltInKeywords.class))
-		kb.setKeywordMethods(AUTType.Mobile, KeywordUtils.getKeywordMethods(MobileBuiltInKeywords.class))
-		kb.setKeywordMethods(AUTType.Windows, KeywordUtils.getKeywordMethods(WindowsBuiltinKeywords.class))
+		kb.setKeywordMethods(AUTType.WebUI, KeywordMethodFactory.getKeywordMethods(WebUiBuiltInKeywords.class))
+		kb.setKeywordMethods(AUTType.WS, KeywordMethodFactory.getKeywordMethods(WSBuiltInKeywords.class))
+		kb.setKeywordMethods(AUTType.Mobile, KeywordMethodFactory.getKeywordMethods(MobileBuiltInKeywords.class))
+		kb.setKeywordMethods(AUTType.Windows, KeywordMethodFactory.getKeywordMethods(WindowsBuiltinKeywords.class))
 		return kb
 	}
 

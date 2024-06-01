@@ -13,26 +13,26 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 @RunWith(JUnit4.class)
-public class KeywordUtilsTest {
+public class KeywordMethodFactoryTest {
 
 	@Test
 	public void test_getAccessibleMethods() {
-		List<Method> allMethods = KeywordUtils.getAccessibleMethods(WebUiBuiltInKeywords.class)
+		List<Method> allMethods = KeywordMethodFactory.getAccessibleMethods(WebUiBuiltInKeywords.class)
 		println "allMethods.size()=" + allMethods.size()   // 370
 		assertTrue(allMethods.size() > 0)
 	}
 
 	@Test
 	public void test_getKeywordMethods() {
-		List<KeywordMethod> kms = KeywordUtils.getKeywordMethods(WebUiBuiltInKeywords.class)
+		List<KeywordMethod> kms = KeywordMethodFactory.getKeywordMethods(WebUiBuiltInKeywords.class)
 		println "kms.size()=" + kms.size()   //
 		assertTrue(kms.size() > 0)
 	}
-	
+
 	@Test
 	public void test_getKeywordMethod() {
-		KeywordMethod km = 
-			KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
+		KeywordMethod km =
+				KeywordMethodFactory.getKeywordMethod(WebUiBuiltInKeywords.class,
 				AUTType.WebUI, "Attribute", "getAttribute",
 				new MethodParameters(Arrays.asList(TestObject.class, String.class))
 				)

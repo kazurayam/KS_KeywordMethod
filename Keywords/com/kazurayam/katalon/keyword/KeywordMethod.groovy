@@ -25,7 +25,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 	}
 
 	KeywordMethod(String autTypeStr, String groupStr, String methodNameStr, String methodParametersStr, String descriptionStr) {
-		List<KeywordMethod> kmList = KeywordUtils.getKeywordMethods(AUTType.valueOf(autTypeStr).getKeywordsClass())
+		List<KeywordMethod> kmList = KeywordMethodFactory.getKeywordMethods(AUTType.valueOf(autTypeStr).getKeywordsClass())
 		List<KeywordMethod> filtered =
 				kmList.stream()
 				.filter { km -> km.keywordGroup() == groupStr }

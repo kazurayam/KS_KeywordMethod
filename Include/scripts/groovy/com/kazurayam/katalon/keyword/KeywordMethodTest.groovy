@@ -20,7 +20,7 @@ public class KeywordMethodTest {
 
 	@Before
 	public void setup() {
-		km = KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
+		km = KeywordMethodFactory.getKeywordMethod(WebUiBuiltInKeywords.class,
 				AUTType.WebUI, "Attribute", "getAttribute",
 				new MethodParameters(Arrays.asList(TestObject.class, String.class))
 				)
@@ -73,7 +73,7 @@ public class KeywordMethodTest {
 	public void test_constructor_with_strings() {
 		// given
 		KeywordMethod expected =
-				KeywordUtils.getKeywordMethod(WebUiBuiltInKeywords.class,
+				KeywordMethodFactory.getKeywordMethod(WebUiBuiltInKeywords.class,
 				AUTType.WebUI, "Alert", "acceptAlert",
 				new MethodParameters(Arrays.asList(FailureHandling.class)))
 		expected.setDescription("mayday")
