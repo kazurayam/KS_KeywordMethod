@@ -11,12 +11,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 public class KeywordMethodFactory {
 
-	static KeywordMethod getKeywordMethod(Class<?> clazz,
+	static KeywordMethod getKeywordMethod(Class<?> keywordsClass,
 			AUTType autType,
 			String keywordGroup,
 			String methodName,
 			MethodParameters parameters) {
-		List<KeywordMethod> list = KeywordMethodFactory.getKeywordMethods(clazz)
+		List<KeywordMethod> list = KeywordMethodFactory.getKeywordMethods(keywordsClass)
 		for (KeywordMethod km : list) {
 			if (km.autType() == autType &&
 					km.keywordGroup() == keywordGroup &&
@@ -28,6 +28,9 @@ public class KeywordMethodFactory {
 		return null
 	}
 
+	/*
+	 * generic method that finds all the methods of any class instance
+	 */
 	static List<Method> getAccessibleMethods(Class<?> clazz) {
 		List<Method> result = new ArrayList<Method>()
 		while (clazz != null) {
@@ -43,6 +46,11 @@ public class KeywordMethodFactory {
 		return result;
 	}
 
+	/**
+	 * filter out the Methods which are associated with @Keyword annotation
+	 * @param clazz
+	 * @return
+	 */
 	static List<KeywordMethod> getKeywordMethods(Class<?> clazz) {
 		List<Method> allMethods = KeywordMethodFactory.getAccessibleMethods(clazz)
 		AUTType autType = AUTType.resolve(clazz)

@@ -19,6 +19,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>b1133863-0255-4e41-a6f3-ca821ffd5bf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/JavadocRetrieverTestRunner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c44205c3-4fa7-4bac-bc85-8999feeaa652</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

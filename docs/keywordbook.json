@@ -1,1626 +1,4 @@
 {
-  "Mobile" : [ {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "closeApplication",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "closeApplication",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "runIOSAppInBackgroundAndWait",
-    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "runIOSAppInBackgroundAndWait",
-    "parameters" : "(int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "startApplication",
-    "parameters" : "(java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "startApplication",
-    "parameters" : "(java.lang.String, boolean)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "startExistingApplication",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Application",
-    "methodName" : "startExistingApplication",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Attribute",
-    "methodName" : "getAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Attribute",
-    "methodName" : "getAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getCurrentOrientation",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getCurrentOrientation",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceHeight",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceHeight",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceManufacturer",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceManufacturer",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceOS",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceOS",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceOSVersion",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceOSVersion",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceWidth",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getDeviceWidth",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getElementLeftPosition",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getElementLeftPosition",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getElementTopPosition",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "getElementTopPosition",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "hideKeyboard",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "hideKeyboard",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToLandscape",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToLandscape",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToNative",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToNative",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToPortrait",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToPortrait",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToWebView",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "switchToWebView",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "unlockScreen",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "unlockScreen",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "verifyIsLandscape",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "verifyIsLandscape",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "verifyIsPortrait",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Device",
-    "methodName" : "verifyIsPortrait",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "checkElement",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "checkElement",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "dragAndDrop",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "dragAndDrop",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "executeMobileCommand",
-    "parameters" : "(java.lang.String, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "executeMobileCommand",
-    "parameters" : "(java.lang.String, java.util.Map)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "findImageElement",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "findImageElement",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "findImageElements",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "findImageElements",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "getElementHeight",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "getElementHeight",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "getElementWidth",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "getElementWidth",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "longPress",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "longPress",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "selectListItemByIndex",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "selectListItemByIndex",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "selectListItemByLabel",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "selectListItemByLabel",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "sendKeys",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "sendKeys",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "setSliderValue",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "setSliderValue",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "tapAndHold",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "tapAndHold",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "tapOnImage",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "tapOnImage",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "uncheckElement",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "uncheckElement",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementAttributeValue",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementAttributeValue",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementChecked",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementChecked",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementExist",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementExist",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotChecked",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotChecked",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotExist",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotExist",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotVisible",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementNotVisible",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementVisible",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyElementVisible",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyImagePresent",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "verifyImagePresent",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementAttributeValue",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementAttributeValue",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementNotHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementNotHasAttribute",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementNotPresent",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementNotPresent",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementPresent",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Element",
-    "methodName" : "waitForElementPresent",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Notification",
-    "methodName" : "closeNotifications",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Notification",
-    "methodName" : "closeNotifications",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Notification",
-    "methodName" : "openNotifications",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Notification",
-    "methodName" : "openNotifications",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThan",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThan",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyLessThan",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyLessThan",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyLessThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyLessThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyNotEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Number",
-    "methodName" : "verifyNotEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "doubleTap",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "doubleTap",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "pinchToZoomInAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "pinchToZoomInAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "pinchToZoomOutAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "pinchToZoomOutAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "swipe",
-    "parameters" : "(int, int, int, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "swipe",
-    "parameters" : "(int, int, int, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "tap",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "tap",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "tapAndHoldAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "tapAndHoldAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "tapAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Screen",
-    "methodName" : "tapAtPosition",
-    "parameters" : "(java.lang.Number, java.lang.Number)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "clearText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "clearText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "concatenate",
-    "parameters" : "([Ljava.lang.String;, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "concatenate",
-    "parameters" : "([Ljava.lang.String;)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "getText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "getText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "scrollToText",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "scrollToText",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "setEncryptedText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "setEncryptedText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "setText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "setText",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "verifyMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "verifyMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "verifyNotMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Text",
-    "methodName" : "verifyNotMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "callTestCase",
-    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "callTestCase",
-    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "comment",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "delay",
-    "parameters" : "(java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "delay",
-    "parameters" : "(java.lang.Number)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "performTouchID",
-    "parameters" : "(boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "performTouchID",
-    "parameters" : "(boolean)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "pressBack",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "pressBack",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "pressHome",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "pressHome",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshot",
-    "parameters" : "(org.openqa.selenium.Rectangle)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeAreaScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshot",
-    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeElementScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshot",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshot",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshot",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshot",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, java.util.List, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, java.util.List, java.awt.Color)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String, java.util.List)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "takeScreenshotAsCheckpoint",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "toggleAirplaneMode",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "toggleAirplaneMode",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "toggleWifi",
-    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "toggleWifi",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "useFingerprint",
-    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "useFingerprint",
-    "parameters" : "(int)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "verifyCheckpoint",
-    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "Mobile",
-    "group" : "Utilities",
-    "methodName" : "verifyCheckpoint",
-    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean)",
-    "description" : ""
-  } ],
-  "WS" : [ {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getElementPropertyValue",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getElementPropertyValue",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getElementText",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getElementText",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getElementsCount",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getElementsCount",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getResponseStatusCode",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "getResponseStatusCode",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyElementPropertyValue",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyElementPropertyValue",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyElementText",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyElementText",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyElementsCount",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyElementsCount",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, int)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyResponseStatusCode",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyResponseStatusCode",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyResponseStatusCodeInRange",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int, int, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Element",
-    "methodName" : "verifyResponseStatusCodeInRange",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int, int)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThan",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThan",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyGreaterThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyLessThan",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyLessThan",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyLessThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyLessThanOrEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyNotEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Number",
-    "methodName" : "verifyNotEqual",
-    "parameters" : "(java.lang.Object, java.lang.Object)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "sendRequest",
-    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "sendRequest",
-    "parameters" : "(com.kms.katalon.core.testobject.RequestObject)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "sendRequestAndVerify",
-    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "sendRequestAndVerify",
-    "parameters" : "(com.kms.katalon.core.testobject.RequestObject)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateGraphqlRequestAgainstSchema",
-    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateGraphqlRequestAgainstSchema",
-    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateJsonAgainstSchema",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateJsonAgainstSchema",
-    "parameters" : "(java.lang.String, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateJsonAgainstSchema",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateJsonAgainstSchema",
-    "parameters" : "(java.lang.String, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateXmlAgainstSchema",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateXmlAgainstSchema",
-    "parameters" : "(java.lang.String, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateXmlAgainstSchema",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Request",
-    "methodName" : "validateXmlAgainstSchema",
-    "parameters" : "(java.lang.String, java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "concatenate",
-    "parameters" : "([Ljava.lang.String;, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "concatenate",
-    "parameters" : "([Ljava.lang.String;)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "containsString",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "containsString",
-    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, boolean)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "verifyMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "verifyMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "verifyNotMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Text",
-    "methodName" : "verifyNotMatch",
-    "parameters" : "(java.lang.String, java.lang.String, boolean)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "callTestCase",
-    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "callTestCase",
-    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "comment",
-    "parameters" : "(java.lang.String)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "delay",
-    "parameters" : "(java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "delay",
-    "parameters" : "(java.lang.Number)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "getHarFileGeneration",
-    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "getHarFileGeneration",
-    "parameters" : "()",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "setHarFileGeneration",
-    "parameters" : "(boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "setHarFileGeneration",
-    "parameters" : "(boolean)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "verifyCheckpoint",
-    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean, com.kms.katalon.core.model.FailureHandling)",
-    "description" : ""
-  }, {
-    "autType" : "WS",
-    "group" : "Utilities",
-    "methodName" : "verifyCheckpoint",
-    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean)",
-    "description" : ""
-  } ],
   "WebUI" : [ {
     "autType" : "WebUI",
     "group" : "Alert",
@@ -4234,6 +2612,1628 @@
     "description" : ""
   }, {
     "autType" : "Windows",
+    "group" : "Utilities",
+    "methodName" : "verifyCheckpoint",
+    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean)",
+    "description" : ""
+  } ],
+  "WS" : [ {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getElementPropertyValue",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getElementPropertyValue",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getElementsCount",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getElementsCount",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getResponseStatusCode",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "getResponseStatusCode",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyElementPropertyValue",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyElementPropertyValue",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyElementsCount",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyElementsCount",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyResponseStatusCode",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyResponseStatusCode",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyResponseStatusCodeInRange",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Element",
+    "methodName" : "verifyResponseStatusCodeInRange",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThan",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThan",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyLessThan",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyLessThan",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyLessThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyLessThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyNotEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Number",
+    "methodName" : "verifyNotEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "sendRequest",
+    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "sendRequest",
+    "parameters" : "(com.kms.katalon.core.testobject.RequestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "sendRequestAndVerify",
+    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "sendRequestAndVerify",
+    "parameters" : "(com.kms.katalon.core.testobject.RequestObject)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateGraphqlRequestAgainstSchema",
+    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateGraphqlRequestAgainstSchema",
+    "parameters" : "(com.kms.katalon.core.testobject.RequestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateJsonAgainstSchema",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateJsonAgainstSchema",
+    "parameters" : "(java.lang.String, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateJsonAgainstSchema",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateJsonAgainstSchema",
+    "parameters" : "(java.lang.String, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateXmlAgainstSchema",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateXmlAgainstSchema",
+    "parameters" : "(java.lang.String, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateXmlAgainstSchema",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Request",
+    "methodName" : "validateXmlAgainstSchema",
+    "parameters" : "(java.lang.String, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "concatenate",
+    "parameters" : "([Ljava.lang.String;, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "concatenate",
+    "parameters" : "([Ljava.lang.String;)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "containsString",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "containsString",
+    "parameters" : "(com.kms.katalon.core.testobject.ResponseObject, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "verifyMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "verifyMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "verifyNotMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Text",
+    "methodName" : "verifyNotMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "callTestCase",
+    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "callTestCase",
+    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "comment",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "delay",
+    "parameters" : "(java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "delay",
+    "parameters" : "(java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "getHarFileGeneration",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "getHarFileGeneration",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "setHarFileGeneration",
+    "parameters" : "(boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "setHarFileGeneration",
+    "parameters" : "(boolean)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "verifyCheckpoint",
+    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "WS",
+    "group" : "Utilities",
+    "methodName" : "verifyCheckpoint",
+    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean)",
+    "description" : ""
+  } ],
+  "Mobile" : [ {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "closeApplication",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "closeApplication",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "runIOSAppInBackgroundAndWait",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "runIOSAppInBackgroundAndWait",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "startApplication",
+    "parameters" : "(java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "startApplication",
+    "parameters" : "(java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "startExistingApplication",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Application",
+    "methodName" : "startExistingApplication",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Attribute",
+    "methodName" : "getAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Attribute",
+    "methodName" : "getAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getCurrentOrientation",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getCurrentOrientation",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceHeight",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceHeight",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceManufacturer",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceManufacturer",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceOS",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceOS",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceOSVersion",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceOSVersion",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceWidth",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getDeviceWidth",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getElementLeftPosition",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getElementLeftPosition",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getElementTopPosition",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "getElementTopPosition",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "hideKeyboard",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "hideKeyboard",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToLandscape",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToLandscape",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToNative",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToNative",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToPortrait",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToPortrait",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToWebView",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "switchToWebView",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "unlockScreen",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "unlockScreen",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "verifyIsLandscape",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "verifyIsLandscape",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "verifyIsPortrait",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Device",
+    "methodName" : "verifyIsPortrait",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "checkElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "checkElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "dragAndDrop",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "dragAndDrop",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "executeMobileCommand",
+    "parameters" : "(java.lang.String, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "executeMobileCommand",
+    "parameters" : "(java.lang.String, java.util.Map)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "findImageElement",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "findImageElement",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "findImageElements",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "findImageElements",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "getElementHeight",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "getElementHeight",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "getElementWidth",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "getElementWidth",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "longPress",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "longPress",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "selectListItemByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "selectListItemByIndex",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "selectListItemByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "selectListItemByLabel",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "sendKeys",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "sendKeys",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "setSliderValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "setSliderValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "tapAndHold",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "tapAndHold",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.Number, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "tapOnImage",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "tapOnImage",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "uncheckElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "uncheckElement",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementExist",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementExist",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotChecked",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotExist",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotExist",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementNotVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyElementVisible",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyImagePresent",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "verifyImagePresent",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementAttributeValue",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementNotHasAttribute",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementNotPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementNotPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Element",
+    "methodName" : "waitForElementPresent",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Notification",
+    "methodName" : "closeNotifications",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Notification",
+    "methodName" : "closeNotifications",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Notification",
+    "methodName" : "openNotifications",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Notification",
+    "methodName" : "openNotifications",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThan",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThan",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyGreaterThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyLessThan",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyLessThan",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyLessThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyLessThanOrEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyNotEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Number",
+    "methodName" : "verifyNotEqual",
+    "parameters" : "(java.lang.Object, java.lang.Object)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "doubleTap",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "doubleTap",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "pinchToZoomInAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "pinchToZoomInAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "pinchToZoomOutAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "pinchToZoomOutAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "swipe",
+    "parameters" : "(int, int, int, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "swipe",
+    "parameters" : "(int, int, int, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "tap",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "tap",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "tapAndHoldAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "tapAndHoldAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "tapAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Screen",
+    "methodName" : "tapAtPosition",
+    "parameters" : "(java.lang.Number, java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "clearText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "clearText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "concatenate",
+    "parameters" : "([Ljava.lang.String;, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "concatenate",
+    "parameters" : "([Ljava.lang.String;)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "getText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "getText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "scrollToText",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "scrollToText",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "setEncryptedText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "setEncryptedText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "setText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "setText",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, java.lang.String, int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "verifyMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "verifyMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "verifyNotMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Text",
+    "methodName" : "verifyNotMatch",
+    "parameters" : "(java.lang.String, java.lang.String, boolean)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "callTestCase",
+    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "callTestCase",
+    "parameters" : "(com.kms.katalon.core.testcase.TestCase, java.util.Map)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "comment",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "delay",
+    "parameters" : "(java.lang.Number, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "delay",
+    "parameters" : "(java.lang.Number)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "performTouchID",
+    "parameters" : "(boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "performTouchID",
+    "parameters" : "(boolean)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "pressBack",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "pressBack",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "pressHome",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "pressHome",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshot",
+    "parameters" : "(org.openqa.selenium.Rectangle)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeAreaScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, org.openqa.selenium.Rectangle)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshot",
+    "parameters" : "(com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeElementScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.testobject.TestObject)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshot",
+    "parameters" : "()",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List, java.awt.Color)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String, java.util.List)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "takeScreenshotAsCheckpoint",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "toggleAirplaneMode",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "toggleAirplaneMode",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "toggleWifi",
+    "parameters" : "(java.lang.String, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "toggleWifi",
+    "parameters" : "(java.lang.String)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "useFingerprint",
+    "parameters" : "(int, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "useFingerprint",
+    "parameters" : "(int)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
+    "group" : "Utilities",
+    "methodName" : "verifyCheckpoint",
+    "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean, com.kms.katalon.core.model.FailureHandling)",
+    "description" : ""
+  }, {
+    "autType" : "Mobile",
     "group" : "Utilities",
     "methodName" : "verifyCheckpoint",
     "parameters" : "(com.kms.katalon.core.checkpoint.Checkpoint, boolean)",

@@ -10,10 +10,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords
  */
 public enum AUTType {
 
-	WebUI(WebUiBuiltInKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html"),
-	WS(WSBuiltInKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html"),
-	Mobile(MobileBuiltInKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html"),
-	Windows(WindowsBuiltinKeywords.class, "https://api-docs.katalon.com/com/kms/katalon/core/windows/keyword/WindowsBuiltinKeywords.html");
+	WebUI(WebUiBuiltInKeywords.class,
+	"com.kms.katalon.core.webui",
+	"com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html"),
+	WS(WSBuiltInKeywords.class,
+	"com.kms.katalon.core.webservice",
+	"com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html"),
+	Mobile(MobileBuiltInKeywords.class,
+	"com.kms.katalon.core.mobile",
+	"com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html"),
+	Windows(WindowsBuiltinKeywords.class,
+	"com.kms.katalon.core.windows",
+	"com/kms/katalon/core/windows/keyword/WindowsBuiltinKeywords.html");
 
 	static AUTType resolve(Class clazz) {
 		if (clazz.getName() == MobileBuiltInKeywords.getName()) {
@@ -29,20 +37,32 @@ public enum AUTType {
 		}
 	}
 
-	private Class clazz
-	private String javadocUrl
+	private final String httpHost = "https://api-docs.katalon.com/"
 
-	AUTType(Class clazz, String javadocUrl) {
+	private Class clazz
+	private String javadocUrlComponent0
+	private String javadocUrlComponent1
+
+	AUTType(Class clazz, String javadocUrlComponent0, String javadocUrlComponent1) {
 		this.clazz = clazz
-		this.javadocUrl = javadocUrl
+		this.javadocUrlComponent0 = javadocUrlComponent0
+		this.javadocUrlComponent1 = javadocUrlComponent1
 	}
 
 	Class getKeywordsClass() {
 		return clazz
 	}
 
+	String getJavadocUrlComponent0() {
+		return javadocUrlComponent0
+	}
+
+	String getJavadocUrlComponent1() {
+		return javadocUrlComponent1
+	}
+
 	String getJavadocUrl() {
-		return javadocUrl
+		return httpHost + javadocUrlComponent1
 	}
 
 	String getClassName() {

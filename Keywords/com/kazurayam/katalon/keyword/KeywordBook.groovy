@@ -5,11 +5,8 @@ import java.nio.file.Path
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.databind.module.SimpleModule
-import com.kazurayam.katalon.keyword.TestObjectUtils as TOU
 import com.kazurayam.katalon.keyword.KeywordMethodFactory as KU
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords
@@ -130,40 +127,33 @@ public class KeywordBook {
 	 * Caution: this method will take rather long time: possible 10 minutes to finish.
 	 */
 	public void injectJavadoc() {
-		this.usingSeleniumInjectJavadocIntoKeywordMethodsOf(AUTType.WebUI)
-		this.usingSeleniumInjectJavadocIntoKeywordMethodsOf(AUTType.WS)
-		this.usingSeleniumInjectJavadocIntoKeywordMethodsOf(AUTType.Mobile)
-		this.usingSeleniumInjectJavadocIntoKeywordMethodsOf(AUTType.Windows)
+		JavadocRetriever jr = new JavadocRetriever()
+		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.WebUI)
+		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.WS)
+		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.Mobile)
+		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.Windows)
 	}
-	private void usingSeleniumInjectJavadocIntoKeywordMethodsOf(AUTType autType) {
-		WebUiBuiltInKeywords.comment("********** " + autType.toString() + " **********")
+	private void usingRetrieverInjectJavadocIntoKeywordMethodsOf(JavadocRetriever jr, AUTType autType) {
+		//WebUiBuiltInKeywords.comment("********** " + autType.toString() + " **********")
 		List<KeywordMethod> result = new ArrayList<>()
-		WebUiBuiltInKeywords.openBrowser(autType.getJavadocUrl())
 		List<KeywordMethod> list = KU.getKeywordMethods(autType.getKeywordsClass())
 		list.forEach({ KeywordMethod km ->
-			String anchorName = km.anchorName()
-			WebUiBuiltInKeywords.comment("anchorName: " + anchorName)
-			TestObject anchorTO = TOU.makeTestObject("anchor", "//a[@name=\"${anchorName}\"]")
-			boolean b = WebUiBuiltInKeywords.waitForElementPresent(anchorTO, 3, FailureHandling.OPTIONAL)
-			if (b) {
-				TestObject descriptionTO = TOU.makeTestObject("text", "//a[@name=\"${anchorName}\"]/following-sibling::ul[1]/li[1]/p[1]")
-				String description =  WebUiBuiltInKeywords.getText(descriptionTO) ?: ""
-				WebUiBuiltInKeywords.comment("description: " + description)
-				if (description != null && description.length() > 0) {
-					KeywordMethod target = this.getKeywordMethod(autType, km)
-					if (target.description() == null || target.description().length() == 0) {
+			//WebUiBuiltInKeywords.comment("anchorName: " + km.anchorName())
+			String description = jr.selectDescriptionOf(km) ?: ""
+			//WebUiBuiltInKeywords.comment("description: " + description)
+			if (description != null && description.length() > 0) {
+				KeywordMethod target = this.getKeywordMethod(autType, km)
+				if (target.description() == null || target.description().length() == 0) {
+					target.setDescription(description)
+				} else {
+					if (target.description().length() < description) {
 						target.setDescription(description)
-					} else {
-						if (target.description().length() < description) {
-							target.setDescription(description)
-						}
-						// else --- the description in the javadoc is empty, ignore it
 					}
+					// else --- the description in the javadoc is empty, ignore it
 				}
 			}
 			result.add(km)
 		})
-		WebUiBuiltInKeywords.closeBrowser()
 	}
 
 	@Override

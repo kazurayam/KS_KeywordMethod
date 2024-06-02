@@ -24,6 +24,12 @@ public class AUTTypeTest {
 
 		String javadocUrl = AUTType.WebUI.getJavadocUrl()
 		assertEquals("https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html", javadocUrl)
+		
+		String javadocUrlComponent0 = AUTType.WebUI.getJavadocUrlComponent0()
+		assertEquals("com.kms.katalon.core.webui", javadocUrlComponent0)
+		
+		String javadocUrlComponent1 = AUTType.WebUI.getJavadocUrlComponent1()
+		assertEquals("com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html", javadocUrlComponent1);
 	}
 
 	@Test
