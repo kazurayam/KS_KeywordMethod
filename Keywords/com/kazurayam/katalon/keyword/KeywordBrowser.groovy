@@ -12,11 +12,18 @@ import java.nio.file.StandardOpenOption
 public class KeywordBrowser {
 
 	private TreeModel model
+	private String htmlFileName = "kbr.html"
 
 	public KeywordBrowser() {
-		model = transform(KeywordBook.createKeywordBook())
+		KeywordBook kb = KeywordBook.createKeywordBook()
+		kb.injectJavadoc()
+		model = toModel(kb)
 	}
 
+	public void setHtmlFileName(String name) {
+		this.htmlFileName = name	
+	}
+	
 	/**
 	 * Given with a KeywordBook object, transform it into a TreeModel object
 	 [
@@ -47,7 +54,7 @@ public class KeywordBrowser {
 	 * @param kb
 	 * @return
 	 */
-	static TreeModel transform(KeywordBook kb) {
+	static TreeModel toModel(KeywordBook kb) {
 		TreeModel tm = new TreeModel()
 		for (AUTType autType : kb.autTypes().toSorted()) {
 			TreeNode autTypeNode = new TreeNode(autType.toString(), TreeNode.Icon.Folder)
@@ -71,7 +78,7 @@ public class KeywordBrowser {
 
 	public Path writeHtml(Path dir) {
 		Files.createDirectories(dir)
-		Path file = dir.resolve("index.html")
+		Path file = dir.resolve(htmlFileName)
 		String model = model.serialize()
 		String content = """
 <!doctype html>

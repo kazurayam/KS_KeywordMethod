@@ -59,14 +59,14 @@ public class KeywordBrowserTest {
 	}
 
 	@Test
-	public void test_transform() {
+	public void test_toModel() {
 		// given
 		KeywordBook kb = KeywordBook.createKeywordBook()
 		println kb.serializeAsText()
 		kb.injectJavadoc()
 		println kb.serializeAsText()
 		// when
-		TreeModel tm = KeywordBrowser.transform(kb)
+		TreeModel tm = KeywordBrowser.toModel(kb)
 		println tm.serialize()
 		// then
 		assertNotNull(tm)
