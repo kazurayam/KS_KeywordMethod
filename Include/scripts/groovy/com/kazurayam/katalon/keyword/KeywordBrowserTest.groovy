@@ -62,18 +62,20 @@ public class KeywordBrowserTest {
 	public void test_transform() {
 		// given
 		KeywordBook kb = KeywordBook.createKeywordBook()
+		println kb.serializeAsText()
+		kb.injectJavadoc()
+		println kb.serializeAsText()
 		// when
 		TreeModel tm = KeywordBrowser.transform(kb)
+		println tm.serialize()
 		// then
 		assertNotNull(tm)
 		assertTrue(tm.size() > 0)
 		TreeNode webuiTreeNode = tm.getTreeNode(0)
 		assertEquals("WebUI", webuiTreeNode.text())
-		assertTrue(webuiTreeNode.size() > 0)
+		assertTrue("webuiTreeNode has no child nodes", webuiTreeNode.size() > 0)
 		List<TreeNode> groupNodes = webuiTreeNode.nodes()
 		assertNotNull(groupNodes)
-		assertTrue(groupNodes.size()> 0)
-		
-		
+		assertTrue("groupNodes has no child nodes", groupNodes.size( ) > 0)
 	}
 }

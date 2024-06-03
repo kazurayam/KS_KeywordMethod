@@ -1,5 +1,5 @@
 .gradle
-
+.groovy
 bin
 
 Reports
@@ -16,3 +16,5 @@ build
 .project
 
 .cache
+
+test-output

@@ -56,7 +56,7 @@ public class TreeNode {
 		if (nodes != null) {
 			return nodes.size()
 		} else {
-			throw new IllegalStateException("nodes is null")
+			return 0
 		}
 	}
 
@@ -72,15 +72,4 @@ public class TreeNode {
 		}
 	}
 
-	TreeNode last() {
-		if (nodes != null) {
-			if (nodes.size() > 0) {
-				return nodes.last()
-			} else {
-				return null
-			}
-		} else {
-			throw new IllegalStateException("nodes is null")
-		}
-	}
 }

@@ -127,4 +127,39 @@ public class KeywordBookTest {
 		assertTrue(kb.getKeywordMethods(AUTType.Mobile).size() > 0)
 		assertTrue(kb.getKeywordMethods(AUTType.Windows).size() > 0)
 	}
+
+	@Test
+	public void test_findKeywordMethodDescription_withoutJavadocInjected() {
+		KeywordBook kb = KeywordBook.createKeywordBook()
+		String description = kb.findKeywordMethodDescription(AUTType.WebUI, "Browser", "openBrowser")
+		assertTrue(description.length() == 0)
+	}
+
+	@Test
+	public void test_injectJavadoc() {
+		// when
+		kb.injectJavadoc()
+		Path dir = too.cleanMethodOutputDirectory(new Object() {}.getClass().getEnclosingMethod().getName())
+		Path json = dir.resolve("keywordbook.json")
+		kb.serializeInto(json)
+		// then
+		KeywordBook deserialized = KeywordBook.deserializeFrom(json)
+		assertTrue("the desrialized object contains no AUTType.WebUI", deserialized.keySet().contains(AUTType.WebUI))
+		List<KeywordMethod> list = deserialized.getKeywordMethods(AUTType.WebUI)
+		assertTrue(list.size() > 0)
+	}
+	
+	@Test
+	public void test_injectJavadoc_then_findKeywordMethodDescription() {
+		// given
+		KeywordBook fullKB = KeywordBook.createKeywordBook()
+		fullKB.injectJavadoc()
+		Path dir = too.cleanMethodOutputDirectory(new Object() {}.getClass().getEnclosingMethod().getName())
+		fullKB.serializeInto(dir.resolve("keywordbook.json"))
+		// when
+		String description = fullKB.findKeywordMethodDescription(AUTType.WebUI, "Browser", "openBrowser")
+		println "WebUI.openBrowser description: \"" + description + "\""
+		// then
+		assertTrue("description is still empty", description.length() > 0)
+	}
 }

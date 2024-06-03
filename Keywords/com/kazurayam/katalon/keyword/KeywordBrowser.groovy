@@ -19,16 +19,52 @@ public class KeywordBrowser {
 
 	/**
 	 * Given with a KeywordBook object, transform it into a TreeModel object
-	 * 
+	 [
+	 {
+	 text: "WebUI",
+	 icon: "fa fa-folder fa-fw",
+	 nodes: [
+	 {
+	 text: "Alert",
+	 icon: "fa fa-folder fa-fw",
+	 nodes: [
+	 {
+	 icon: "fa fa-key fa-fw",
+	 text: "acceptAlert",
+	 nodes: [
+	 {
+	 icon: "fa fa-comment-o fa-fw",
+	 text: "Fires the Close event of the running application to the Windows System. This action is similar to pressing 'ALT + F4' and also does not force close the application."
+	 }
+	 ]
+	 }
+	 ]
+	 }
+	 ]
+	 }
+	 ]
+	 *
 	 * @param kb
 	 * @return
 	 */
 	static TreeModel transform(KeywordBook kb) {
 		TreeModel tm = new TreeModel()
-		for (AUTType autType : kb.autTypes()) {
+		for (AUTType autType : kb.autTypes().toSorted()) {
 			TreeNode autTypeNode = new TreeNode(autType.toString(), TreeNode.Icon.Folder)
-
 			tm.addTreeNode(autTypeNode)
+			for (String group : kb.keywordGroupsOf(autType)) {
+				TreeNode groupNode = new TreeNode(group, TreeNode.Icon.Folder)
+				autTypeNode.addNode(groupNode)
+				for (String methodName : kb.methodNamesOf(autType, group)) {
+					TreeNode methodNameNode = new TreeNode(methodName, TreeNode.Icon.Key)
+					groupNode.addNode(methodNameNode)
+					String description = kb.findKeywordMethodDescription(autType, group, methodName)
+					if (description.length() > 0) {
+						TreeNode commentNode = new TreeNode(description, TreeNode.Icon.Comment)
+						methodNameNode.addNode(commentNode)
+					}
+				}
+			}
 		}
 		return tm
 	}
