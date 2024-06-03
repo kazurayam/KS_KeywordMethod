@@ -105,21 +105,6 @@ public class KeywordBook {
 		return ts
 	}
 
-	/**
-	 * 
-	 */
-	public String findKeywordMethodDescription(AUTType autType, String group, String methodName) {
-		String description = ""
-		SortedSet<KeywordMethod> keywordMethods = this.keywordMethodsOf(autType, group, methodName)
-		for (KeywordMethod km : keywordMethods) {
-			if (km.description != null && km.description.length() < description.length()) {
-				description = km.description()
-			}
-		}
-		return description
-	}
-
-
 	public int sizeOfKeywordMethods(AUTType autType) {
 		return collection.get(autType).size()
 	}
@@ -213,6 +198,21 @@ public class KeywordBook {
 		})
 		return result
 	}
+	
+	/**
+	 *
+	 */
+	public String findKeywordMethodDescription(AUTType autType, String group, String methodName) {
+		String description = ""
+		SortedSet<KeywordMethod> keywordMethods = this.keywordMethodsOf(autType, group, methodName)
+		for (KeywordMethod km : keywordMethods) {
+			if (km.description != null && km.description.length() > description.length()) {
+				description = km.description()
+			}
+		}
+		return description
+	}
+
 
 	@Override
 	public String toString() {
