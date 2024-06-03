@@ -47,6 +47,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>b041416e-8caf-44c1-8c27-4d9799f4402d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/KeywordBrowserTestRunner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>59adb227-371c-4d62-b92d-e310e881b7bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -79,6 +86,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/MethodParametersTestRunner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee503b88-e3cf-43a6-ac1b-e80176407e93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/TreeModelTestRunner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4dcfbf21-d9bc-4033-a49b-298012a94db4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.katalon.keyword/TreeNodeTestRunner</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

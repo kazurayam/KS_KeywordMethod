@@ -46,7 +46,7 @@ public class KeywordBrowserTest {
 		assertTrue(Files.exists(file))
 		assertTrue(file.getFileName().toString().endsWith(".js"))
 	}
-	
+
 	@Test
 	public void test_writeHtml() {
 		Path dir = too.cleanMethodOutputDirectory("test_writeHtml")
@@ -56,6 +56,24 @@ public class KeywordBrowserTest {
 		// additive
 		Path css = keywordBrowser.writeCss(dir)
 		Path js = keywordBrowser.writeJs(dir)
+	}
+
+	@Test
+	public void test_transform() {
+		// given
+		KeywordBook kb = KeywordBook.createKeywordBook()
+		// when
+		TreeModel tm = KeywordBrowser.transform(kb)
+		// then
+		assertNotNull(tm)
+		assertTrue(tm.size() > 0)
+		TreeNode webuiTreeNode = tm.getTreeNode(0)
+		assertEquals("WebUI", webuiTreeNode.text())
+		assertTrue(webuiTreeNode.size() > 0)
+		List<TreeNode> groupNodes = webuiTreeNode.nodes()
+		assertNotNull(groupNodes)
+		assertTrue(groupNodes.size()> 0)
+		
 		
 	}
 }

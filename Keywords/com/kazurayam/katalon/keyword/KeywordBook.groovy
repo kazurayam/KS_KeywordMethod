@@ -57,6 +57,10 @@ public class KeywordBook {
 	public Set<AUTType> keySet() {
 		return collection.keySet()
 	}
+	
+	public List<AUTType> autTypes() {
+		return new ArrayList<>(keySet()).toSorted()
+	}
 
 	public List<KeywordMethod> getKeywordMethods(AUTType autType) {
 		return collection.get(autType)

@@ -11,14 +11,26 @@ import java.nio.file.StandardOpenOption
  */
 public class KeywordBrowser {
 
-	private KeywordBrowserModel model
+	private TreeModel model
 
 	public KeywordBrowser() {
 		model = transform(KeywordBook.createKeywordBook())
 	}
-	
-	KeywordBrowserModel transform(KeywordBook kb) {
-		return new KeywordBrowserModel()
+
+	/**
+	 * Given with a KeywordBook object, transform it into a TreeModel object
+	 * 
+	 * @param kb
+	 * @return
+	 */
+	static TreeModel transform(KeywordBook kb) {
+		TreeModel tm = new TreeModel()
+		for (AUTType autType : kb.autTypes()) {
+			TreeNode autTypeNode = new TreeNode(autType.toString(), TreeNode.Icon.Folder)
+
+			tm.addTreeNode(autTypeNode)
+		}
+		return tm
 	}
 
 	public Path writeHtml(Path dir) {

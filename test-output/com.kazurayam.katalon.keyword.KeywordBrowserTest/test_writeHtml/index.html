@@ -35,32 +35,19 @@
 	<script>
 		$(function () {
 
-			var json = 
-			[
-				{
-					text: "WebUI",
-					icon: "fa fa-folder fa-fw",
-					nodes: [
-						{
-							text: "Alert",
-							icon: "fa fa-folder fa-fw",
-							nodes: [
-								{
-									icon: "fa fa-key fa-fw",
-									text: "acceptAlert",
-									nodes: [
-										{
-											icon: "fa fa-comment-o fa-fw",
-											text: "Fires the Close event of the running application to the Windows System. This action is similar to pressing 'ALT + F4' and also does not force close the application."
-										}
-									]
-								},
-							]
-						}
-					]
-				}
-			]
-;
+			var json = [ {
+  "icon" : "fa fa-folder fa-fw",
+  "text" : "WebUI"
+}, {
+  "icon" : "fa fa-folder fa-fw",
+  "text" : "WS"
+}, {
+  "icon" : "fa fa-folder fa-fw",
+  "text" : "Mobile"
+}, {
+  "icon" : "fa fa-folder fa-fw",
+  "text" : "Windows"
+} ];
 
 			$('#tree').bstreeview({
 				data: json,
