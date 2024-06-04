@@ -6,9 +6,12 @@ This is a Katalon Studio project where I propose a solution to the question rais
 
 ## My product
 
-- [keyword-browser/index.html](http://kazurayam.github.io/KS_KeywordMethod/keyword-browser/index.html)
+- [keyword-browser/index.html](http://kazurayam.github.io/KS_KeywordMethod/keyword-browser/kbr.html)
 
 ![kbr-auttype](http://kazurayam.github.io/KS_KeywordMethod/images/kbr-auttype.png)
+
+You can expand the tree of course
+
 ![kbr-expanded](http://kazurayam.github.io/KS_KeywordMethod/images/kbr-expanded.png)
 
 So I have re-invented what is bundled in Katalon Studio with name ["Keyword Browser"](https://europe1.discourse-cdn.com/katalon/original/3X/f/a/fa3e83085a8cddad6855a7b0239ea01f6dd7001e.png).
