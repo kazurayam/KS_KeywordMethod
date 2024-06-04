@@ -6,19 +6,19 @@ This is a Katalon Studio project where I propose a solution to the question rais
 
 ## My product
 
-- [keyword-browser/index.html](http://KS_KeywordMethod/keyword-browser/index.html)
+- [keyword-browser/index.html](http://kazurayam.github.io/KS_KeywordMethod/keyword-browser/index.html)
 
-![kbr-auttype](http://KS_KeywordMethod/images/kbr-auttype.png)
-![kbr-expanded](http://KS_KeywordMethod/images/kbr-expanded.png)
+![kbr-auttype](http://kazurayam.github.io/KS_KeywordMethod/images/kbr-auttype.png)
+![kbr-expanded](http://kazurayam.github.io/KS_KeywordMethod/images/kbr-expanded.png)
 
 So I have re-invented what is bundled in Katalon Studio with name ["Keyword Browser"](https://europe1.discourse-cdn.com/katalon/original/3X/f/a/fa3e83085a8cddad6855a7b0239ea01f6dd7001e.png).
 
 ## Other artifacts
 
-- [output by Test Cases/main/printListOfKeyworMethod](http://KS_KeywordMethod/keywordList.txt)
-- [output by Test Cases/main/generateHtmlLinkedToJavadoc](http://KS_KeywordMethod/keywords-linked-to-javadoc.html)
-- [output by Test Cases/main/scrapeKatalonJavadocForKeywordDescription](http://KS_KeywordMethod/javadoc.json)
-- [output by Test Cases/main/demonstrateKeywordBook](http://KS_KeywordMethod/keywordbook-with-javadoc.json)
+- [output by Test Cases/main/printListOfKeyworMethod](http://kazurayam.github.io/KS_KeywordMethod/keywordList.txt)
+- [output by Test Cases/main/generateHtmlLinkedToJavadoc](http://kazurayam.github.io/KS_KeywordMethod/keywords-linked-to-javadoc.html)
+- [output by Test Cases/main/scrapeKatalonJavadocForKeywordDescription](http://kazurayam.github.io/KS_KeywordMethod/javadoc.json)
+- [output by Test Cases/main/demonstrateKeywordBook](http://kazurayam.github.io/KS_KeywordMethod/keywordbook-with-javadoc.json)
 
 
 ## Lesson learned
@@ -89,8 +89,8 @@ SUM:                            61            245             71           1149
 
 The final code set includes 1149 lines.
 
-So, 1149 lines vs 60 lines. The final code set is almost 20 times bigger than the original snippet.
+So, 1149 lines vs 60 lines. The final code set is almost **20 times bigger** than the original snippet.
 
-I wasn't correct enough.
+I wasn't correct very much.
 
 
