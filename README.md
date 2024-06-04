@@ -18,9 +18,8 @@ So I have re-invented what is bundled in Katalon Studio with name ["Keyword Brow
 
 ## Other artifacts
 
-- [output by Test Cases/main/printListOfKeyworMethod](http://kazurayam.github.io/KS_KeywordMethod/keywordList.txt)
-- [output by Test Cases/main/generateHtmlLinkedToJavadoc](http://kazurayam.github.io/KS_KeywordMethod/keywords-linked-to-javadoc.html)
-- [output by Test Cases/main/scrapeKatalonJavadocForKeywordDescription](http://kazurayam.github.io/KS_KeywordMethod/javadoc.json)
+- [output by Test Cases/main/printListOfKeyworMethod](http://kazurayam.github.io/KS_KeywordMethod/keywordsList.txt)
+- [output by Test Cases/main/generateHtmlDocLinkedToJavadoc](http://kazurayam.github.io/KS_KeywordMethod/keywords-linked-to-javadoc.html)
 - [output by Test Cases/main/demonstrateKeywordBook](http://kazurayam.github.io/KS_KeywordMethod/keywordbook-with-javadoc.json)
 
 
@@ -30,9 +29,9 @@ In this project, I had a lot of programming exercises; escpecially 2 issues
 
 ### Java Relection API for Method
 
-See the source [here](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Scripts/main/printListOfKeywordMethod/Script1716811853682.groovy)
+See the source of [KeywordMethodFactory](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethodFactory.groovy)
 
-This script scans the class `com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords` class and makes a list of "Katalon Buit-in WebUI Keyword" using Java Reflection API.
+This script can scan the class `com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords` to make a list of "Katalon Buit-in WebUI Keywords" using Java Reflection API.
 
 ### Jackson ObjectMapper
 
