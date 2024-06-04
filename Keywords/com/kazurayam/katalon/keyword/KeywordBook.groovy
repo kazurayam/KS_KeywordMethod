@@ -58,8 +58,51 @@ public class KeywordBook {
 		return collection.keySet()
 	}
 
+	public List<AUTType> autTypes() {
+		return new ArrayList<>(keySet()).toSorted()
+	}
+
 	public List<KeywordMethod> getKeywordMethods(AUTType autType) {
 		return collection.get(autType)
+	}
+
+	/**
+	 * 
+	 */
+	public SortedSet<String> keywordGroupsOf(AUTType autType) {
+		TreeSet<String> ts = new TreeSet()
+		for (KeywordMethod km : this.getKeywordMethods(autType)) {
+			ts.add(km.keywordGroup())
+		}
+		return ts
+	}
+
+	/**
+	 * 
+	 */
+	public SortedSet<String> methodNamesOf(AUTType autType, String group) {
+		TreeSet<String> ts = new TreeSet()
+		for (KeywordMethod km: this.getKeywordMethods(autType)) {
+			if (km.keywordGroup() == group) {
+				ts.add(km.methodName())
+			}
+		}
+		return ts
+	}
+
+	/**
+	 * 
+	 */
+	public SortedSet<KeywordMethod> keywordMethodsOf(AUTType autType, String group, String methodName) {
+		TreeSet<KeywordMethod> ts = new TreeSet()
+		for (KeywordMethod km: this.getKeywordMethods(autType)) {
+			if (km.keywordGroup() == group) {
+				if (km.methodName() == methodName) {
+					ts.add(km)
+				}
+			}
+		}
+		return ts
 	}
 
 	public int sizeOfKeywordMethods(AUTType autType) {
@@ -124,23 +167,22 @@ public class KeywordBook {
 	/**
 	 * Read the Katalon Javadoc outside the project, extract the information to
 	 * inject into the KeywordMethod objects.
-	 * Caution: this method will take rather long time: possible 10 minutes to finish.
+	 * Caution: this method will take rather long time: possible 20 seconds to finish.
 	 */
 	public void injectJavadoc() {
-		JavadocRetriever jr = new JavadocRetriever()
-		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.WebUI)
-		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.WS)
-		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.Mobile)
-		this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(jr, AUTType.Windows)
+		for (AUTType autType : AUTType.values()) {
+			if (collection.keySet().contains(autType)) {
+				collection.put(autType, this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(this, autType))
+			}
+		}
 	}
-	private void usingRetrieverInjectJavadocIntoKeywordMethodsOf(JavadocRetriever jr, AUTType autType) {
-		//WebUiBuiltInKeywords.comment("********** " + autType.toString() + " **********")
+
+	private List<KeywordMethod> usingRetrieverInjectJavadocIntoKeywordMethodsOf(KeywordBook kb, AUTType autType) {
 		List<KeywordMethod> result = new ArrayList<>()
-		List<KeywordMethod> list = KU.getKeywordMethods(autType.getKeywordsClass())
+		JavadocRetriever jr = new JavadocRetriever()
+		List<KeywordMethod> list = kb.getKeywordMethods(autType)
 		list.forEach({ KeywordMethod km ->
-			//WebUiBuiltInKeywords.comment("anchorName: " + km.anchorName())
 			String description = jr.selectDescriptionOf(km) ?: ""
-			//WebUiBuiltInKeywords.comment("description: " + description)
 			if (description != null && description.length() > 0) {
 				KeywordMethod target = this.getKeywordMethod(autType, km)
 				if (target.description() == null || target.description().length() == 0) {
@@ -154,7 +196,23 @@ public class KeywordBook {
 			}
 			result.add(km)
 		})
+		return result
 	}
+	
+	/**
+	 *
+	 */
+	public String findKeywordMethodDescription(AUTType autType, String group, String methodName) {
+		String description = ""
+		SortedSet<KeywordMethod> keywordMethods = this.keywordMethodsOf(autType, group, methodName)
+		for (KeywordMethod km : keywordMethods) {
+			if (km.description != null && km.description.length() > description.length()) {
+				description = km.description()
+			}
+		}
+		return description
+	}
+
 
 	@Override
 	public String toString() {

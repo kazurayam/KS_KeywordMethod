@@ -39,6 +39,7 @@ public enum AUTType {
 
 	private final String httpHost = "https://api-docs.katalon.com/"
 
+	private int order
 	private Class clazz
 	private String javadocUrlComponent0
 	private String javadocUrlComponent1

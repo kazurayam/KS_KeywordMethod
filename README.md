@@ -4,42 +4,95 @@ This is a Katalon Studio project where I propose a solution to the question rais
 
 - https://forum.katalon.com/t/how-can-a-user-download-the-list-of-katalon-inbuilt-keywords/131454
 
-## What I have developed
+## My product
 
-### Test Cases/main/printListOfKeywordMethod
+- [keyword-browser/index.html](http://kazurayam.github.io/KS_KeywordMethod/keyword-browser/kbr.html)
 
-See the source [here](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Scripts/main/printListOfKeywordMethod/Script1716811853682.groovy)
+![kbr-auttype](http://kazurayam.github.io/KS_KeywordMethod/images/kbr-auttype.png)
 
-This script writes a text file where the name of "Katalon Buit-in Keyword" is listed.
+You can expand the tree of course
 
-The output by the Test Cases: [docs/keywordsList.txt](https://kazurayam.github.io/KS_KeywordMethod/keywordsList.txt)
+![kbr-expanded](http://kazurayam.github.io/KS_KeywordMethod/images/kbr-expanded.png)
 
-### Test Cases/main/generateDocLinkedToJavadoc
+So I have re-invented what is bundled in Katalon Studio with name ["Keyword Browser"](https://europe1.discourse-cdn.com/katalon/original/3X/f/a/fa3e83085a8cddad6855a7b0239ea01f6dd7001e.png).
 
-See the source [here](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Scripts/main/generateDocLinkedToJavadoc/Script1716896356347.groovy)
+## Other artifacts
 
-This script writes a HTML file which contains the list of "Katalon Built-in Keyword" linked to the JavaDoc.
+- [output by Test Cases/main/printListOfKeyworMethod](http://kazurayam.github.io/KS_KeywordMethod/keywordsList.txt)
+- [output by Test Cases/main/generateHtmlDocLinkedToJavadoc](http://kazurayam.github.io/KS_KeywordMethod/keywords-linked-to-javadoc.html)
+- [output by Test Cases/main/demonstrateKeywordBook](http://kazurayam.github.io/KS_KeywordMethod/keywordbook-with-javadoc.json)
 
-The output by the Test Case: [docs/keywords-linked-to-javadoc.html](https://kazurayam.github.io/KS_KeywordMethod/keywords-linked-to-javadoc.html)
 
-### Test Cases/main/scrapeKatalonJavadocForKeywordDescription
+## Lesson learned
 
-See the source [here](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Scripts/main/scrapeKatalonJavadocForKeywordDescription/Script1716974673457.groovy)
+In this project, I had a lot of programming exercises; escpecially 2 issues
 
-The script opens [the javadoc of Katalon API](https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html) in browser using Selenium WebDriver, scrape the texts to create a json file which contains the description of the Katalon built-in Keywords.
+### Java Relection API for Method
 
-The output by the Test Cases: [docs/javadoc.json](https://kazurayam.github.io/KS_KeywordMethod/javadoc.json)
+See the source of [KeywordMethodFactory](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethodFactory.groovy)
 
-I found this json interesting. I found that quite that the published Javadoc of Katalon built-in keywords is not complete. Quite a significant portion of KeywordMethods lacks the description texts.
+This script can scan the class `com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords` to make a list of "Katalon Buit-in WebUI Keywords" using Java Reflection API.
 
-###
+### Jackson ObjectMapper
 
-TODO
+I used extensively the [Jackson ObjectMapper](https://www.baeldung.com/jackson-object-mapper-tutorial) to serialize a Java object into JSON, to deserialize a JSON into a Java object. See the following sources, for example
 
-## My thoughts
+- [com.kazurayam.katalon.keyword.KeywordMethod](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethod.groovy)
+- [com.kazurayam.katalon.keyword.KeywordMethodSerializer](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethodSerializer.groovy)
+- [com.kazurayam.katlaon.keyword.KeywordMethodDeserializer](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethodDeserializer.groovy)
 
-Through the programming lesson here, I learned a lot about the Java Reflection API, especially [java.lang.reflect.Method](https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Method.html).
+It was my first experience to utilized the ObjectMapper to solve my problem. I was impressed how useful it is.
 
-I have released the v1.4.1 which included KeywordBook class. I enjoyed developping the KeywordBook class employing the Jackson Databind JSON utility.
+## Size of the source codes
+
+In https://forum.katalon.com/t/how-can-a-user-download-the-list-of-katalon-inbuilt-keywords/131454/8 , I wrote
+
+>You need to link the entry (keyword name) to the javadoc information of each individual methods. That will require 10 times more complicated progragramming than the above snippet.
+
+In fact, I did the complicated programming required to link the keyword name and the javadoc. How big is the additional code?
+
+The `<projectdir>/clock1.sh` script showed to me:
+
+```
+$ ./cloc1.sh
+       2 text files.
+       2 unique files.
+       0 files ignored.
+
+github.com/AlDanial/cloc v 2.00  T=0.01 s (171.9 files/s, 7648.8 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Groovy                           2             11             18             60
+-------------------------------------------------------------------------------
+SUM:                             2             11             18             60
+-------------------------------------------------------------------------------
+```
+
+The initial snippet had 60 lines of Groovy codes.
+
+On the other hand, the `<projectdir>/cloc2.sh` showed to me:
+
+```
+$ ./cloc2.sh
+      37 text files.
+      37 unique files.
+       0 files ignored.
+
+github.com/AlDanial/cloc v 2.00  T=0.03 s (1090.3 files/s, 37600.2 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Groovy                          37            243             68            965
+-------------------------------------------------------------------------------
+SUM:                            37            243             68            965
+-------------------------------------------------------------------------------
+```
+
+The final code set includes 965 lines of Groovy.
+
+So, 965 lines vs 60 lines. The final code set is almost **16 times bigger** than the original snippet.
+
+I wasn't correct very much.
 
 
