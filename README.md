@@ -41,6 +41,8 @@ I used extensively the [Jackson ObjectMapper](https://www.baeldung.com/jackson-o
 - [com.kazurayam.katalon.keyword.KeywordMethodSerializer](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethodSerializer.groovy)
 - [com.kazurayam.katlaon.keyword.KeywordMethodDeserializer](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Keywords/com/kazurayam/katalon/keyword/KeywordMethodDeserializer.groovy)
 
+It was my first experience to utilized the ObjectMapper to solve my problem. I was impressed how useful it is.
+
 ## Size of the source codes
 
 In https://forum.katalon.com/t/how-can-a-user-download-the-list-of-katalon-inbuilt-keywords/131454/8 , I wrote
@@ -49,7 +51,7 @@ In https://forum.katalon.com/t/how-can-a-user-download-the-list-of-katalon-inbui
 
 In fact, I did the complicated programming required to link the keyword name and the javadoc. How big is the additional code?
 
-The [`<projectdir>/clock1.sh` script tells me:
+The `<projectdir>/clock1.sh` script tells me:
 
 ```
 $ ./cloc1.sh
