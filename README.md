@@ -51,7 +51,7 @@ In https://forum.katalon.com/t/how-can-a-user-download-the-list-of-katalon-inbui
 
 In fact, I did the complicated programming required to link the keyword name and the javadoc. How big is the additional code?
 
-The `<projectdir>/clock1.sh` script tells me:
+The `<projectdir>/clock1.sh` script showed to me:
 
 ```
 $ ./cloc1.sh
@@ -71,29 +71,27 @@ SUM:                             2             11             18             60
 
 The initial snippet had 60 lines of Groovy codes.
 
-On the other hand, the `<projectdir>/cloc2.sh` shows me:
+On the other hand, the `<projectdir>/cloc2.sh` showed to me:
 
 ```
 $ ./cloc2.sh
-      61 text files.
-      61 unique files.
+      37 text files.
+      37 unique files.
        0 files ignored.
 
-github.com/AlDanial/cloc v 2.00  T=0.07 s (883.3 files/s, 21214.7 lines/s)
+github.com/AlDanial/cloc v 2.00  T=0.03 s (1090.3 files/s, 37600.2 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 Groovy                          37            243             68            965
-XML                             23              0              0            183
-Properties                       1              2              3              1
 -------------------------------------------------------------------------------
-SUM:                            61            245             71           1149
+SUM:                            37            243             68            965
 -------------------------------------------------------------------------------
 ```
 
-The final code set includes 1149 lines.
+The final code set includes 965 lines of Groovy.
 
-So, 1149 lines vs 60 lines. The final code set is almost **20 times bigger** than the original snippet.
+So, 965 lines vs 60 lines. The final code set is almost **16 times bigger** than the original snippet.
 
 I wasn't correct very much.
 
