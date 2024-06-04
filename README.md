@@ -11,6 +11,7 @@ This is a Katalon Studio project where I propose a solution to the question rais
 ![kbr-auttype](http://KS_KeywordMethod/images/kbr-auttype.png)
 ![kbr-expanded](http://KS_KeywordMethod/images/kbr-expanded.png)
 
+So I have re-invented what is bundled in Katalon Studio with name ["Keyword Browser"](https://europe1.discourse-cdn.com/katalon/original/3X/f/a/fa3e83085a8cddad6855a7b0239ea01f6dd7001e.png).
 
 ## Other artifacts
 
