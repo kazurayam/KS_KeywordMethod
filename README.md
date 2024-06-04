@@ -23,13 +23,15 @@ So I have re-invented what is bundled in Katalon Studio with name ["Keyword Brow
 
 ## Lesson learned
 
-### Java Relection API
+In this project, I had a lot of programming exercises; escpecially 2 issues
+
+### Java Relection API for Method
 
 See the source [here](https://github.com/kazurayam/KS_KeywordMethod/blob/master/Scripts/main/printListOfKeywordMethod/Script1716811853682.groovy)
 
 This script scans the class `com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords` class and makes a list of "Katalon Buit-in WebUI Keyword" using Java Reflection API.
 
-### Serialize and Descrialize Java Objects using Jackson Databind
+### Jackson ObjectMapper
 
 I used extensively the [Jackson ObjectMapper](https://www.baeldung.com/jackson-object-mapper-tutorial) to serialize a Java object into JSON, to deserialize a JSON into a Java object. See the following sources, for example
 
