@@ -24,6 +24,7 @@ public class TreeNode {
 
 	String text = null
 	Icon icon = null
+	String href = null
 	List<TreeNode> nodes = null
 
 	TreeNode(String text, Icon icon) {
@@ -39,6 +40,18 @@ public class TreeNode {
 
 	Icon icon() {
 		return this.icon
+	}
+
+	void setHref(String href) {
+		this.href = href
+	}
+
+	boolean hasHref() {
+		return href != null
+	}
+
+	String getHref() {
+		return href
 	}
 
 	void addNode(TreeNode kbn) {
@@ -71,5 +84,4 @@ public class TreeNode {
 			return null
 		}
 	}
-
 }

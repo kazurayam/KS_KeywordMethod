@@ -62,7 +62,7 @@ public enum AUTType {
 		return javadocUrlComponent1
 	}
 
-	String getJavadocUrl() {
+	String getHttpJavadocUrl() {
 		return httpHost + javadocUrlComponent1
 	}
 

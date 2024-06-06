@@ -95,3 +95,10 @@ So, 965 lines vs 60 lines. The final code set is almost **16 times bigger** than
 I wasn't correct very much.
 
 
+
+## Dependencies
+
+Special thanks to:
+
+- [Bootstrap 5 Tree View](https://github.com/nhmvienna/bs5treeview)
+- [Jackson Databind / Object Mapper](https://github.com/FasterXML/jackson-databind)
