@@ -19,7 +19,6 @@ So I have re-invented what is bundled in Katalon Studio with name ["Keyword Brow
 ## Other artifacts
 
 - [output by Test Cases/main/printListOfKeyworMethod](http://kazurayam.github.io/KS_KeywordMethod/keywordsList.txt)
-- [output by Test Cases/main/generateHtmlDocLinkedToJavadoc](http://kazurayam.github.io/KS_KeywordMethod/keywords-linked-to-javadoc.html)
 - [output by Test Cases/main/demonstrateKeywordBook](http://kazurayam.github.io/KS_KeywordMethod/keywordbook-with-javadoc.json)
 
 
@@ -96,3 +95,10 @@ So, 965 lines vs 60 lines. The final code set is almost **16 times bigger** than
 I wasn't correct very much.
 
 
+
+## Dependencies
+
+Special thanks to:
+
+- [Bootstrap 5 Tree View](https://github.com/nhmvienna/bs5treeview)
+- [Jackson Databind / Object Mapper](https://github.com/FasterXML/jackson-databind)

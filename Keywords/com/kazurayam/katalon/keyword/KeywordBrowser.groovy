@@ -21,9 +21,9 @@ public class KeywordBrowser {
 	}
 
 	public void setHtmlFileName(String name) {
-		this.htmlFileName = name	
+		this.htmlFileName = name
 	}
-	
+
 	/**
 	 * Given with a KeywordBook object, transform it into a TreeModel object
 	 [
@@ -38,6 +38,7 @@ public class KeywordBrowser {
 	 {
 	 icon: "fa fa-key fa-fw",
 	 text: "acceptAlert",
+	 href: "https://...."
 	 nodes: [
 	 {
 	 icon: "fa fa-comment-o fa-fw",
@@ -64,6 +65,11 @@ public class KeywordBrowser {
 				autTypeNode.addNode(groupNode)
 				for (String methodName : kb.methodNamesOf(autType, group)) {
 					TreeNode methodNameNode = new TreeNode(methodName, TreeNode.Icon.Key)
+					//
+					SortedSet<KeywordMethod> kms = kb.keywordMethodsOf(autType, group, methodName)
+					List<KeywordMethod> kmlist = new ArrayList<>(kms)
+					methodNameNode.setHref(kmlist.get(0).javadocUrl())
+					//
 					groupNode.addNode(methodNameNode)
 					String description = kb.findKeywordMethodDescription(autType, group, methodName)
 					if (description.length() > 0) {
@@ -86,7 +92,7 @@ public class KeywordBrowser {
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>bstreeview</title>
+	<title>Keyword Browser</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
 		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"

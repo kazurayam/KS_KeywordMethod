@@ -37,6 +37,7 @@ public class KeywordMethodSerializerTest {
 		//    "group" : "Alert",
 		//    "methodName" : "acceptAlert",
 		//    "parameters" : "(com.kms.katalon.core.model.FailureHandling)",
+		//    "javadocUrl" : "https://......",
 		//    "description" : ""
 		//  }'''
 		println json
@@ -44,6 +45,7 @@ public class KeywordMethodSerializerTest {
 		assertTrue(json.contains("group") && json.contains("Alert"))
 		assertTrue(json.contains("methodName") && json.contains("acceptAlert"))
 		assertTrue(json.contains("parameters") && json.contains("(com.kms.katalon.core.model.FailureHandling)"))
+		assertTrue(json.contains("javadocUrl") && json.contains("https://"))
 		assertTrue(json.contains("description"))
 	}
 }

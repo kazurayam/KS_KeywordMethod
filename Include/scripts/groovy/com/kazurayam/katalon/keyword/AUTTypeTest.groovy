@@ -22,12 +22,12 @@ public class AUTTypeTest {
 		String shortName = AUTType.WebUI.getShortClassName()
 		assertEquals("WebUiBuiltInKeywords", shortName)
 
-		String javadocUrl = AUTType.WebUI.getJavadocUrl()
+		String javadocUrl = AUTType.WebUI.getHttpJavadocUrl()
 		assertEquals("https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html", javadocUrl)
-		
+
 		String javadocUrlComponent0 = AUTType.WebUI.getJavadocUrlComponent0()
 		assertEquals("com.kms.katalon.core.webui", javadocUrlComponent0)
-		
+
 		String javadocUrlComponent1 = AUTType.WebUI.getJavadocUrlComponent1()
 		assertEquals("com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html", javadocUrlComponent1);
 	}
@@ -38,5 +38,11 @@ public class AUTTypeTest {
 		assertEquals("WSBuiltInKeywords", AUTType.resolve(WSBuiltInKeywords).getShortClassName())
 		assertEquals("MobileBuiltInKeywords", AUTType.resolve(MobileBuiltInKeywords).getShortClassName())
 		assertEquals("WindowsBuiltinKeywords", AUTType.resolve(WindowsBuiltinKeywords).getShortClassName())
+	}
+	
+	@Test
+	void test_getHttpJavadocUrl() {
+		assertEquals("https://api-docs.katalon.com/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html", AUTType.WebUI.getHttpJavadocUrl())
+		
 	}
 }

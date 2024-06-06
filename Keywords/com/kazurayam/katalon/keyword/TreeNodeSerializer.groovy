@@ -21,6 +21,9 @@ public class TreeNodeSerializer extends StdSerializer<TreeNode> {
 		jgen.writeStartObject()
 		jgen.writeStringField("icon", node.icon().value())
 		jgen.writeStringField("text", node.text())
+		if (node.hasHref()) {
+			jgen.writeStringField("href", node.getHref())
+		}
 		if (node.hasNodes() && node.size()> 0) {
 			jgen.writeFieldName("nodes")
 			jgen.writeStartArray()

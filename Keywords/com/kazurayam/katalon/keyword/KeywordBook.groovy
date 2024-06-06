@@ -93,6 +93,19 @@ public class KeywordBook {
 	/**
 	 * 
 	 */
+	public SortedSet<KeywordMethod> keywordMethodsOf(AUTType autType, String group) {
+		TreeSet<KeywordMethod> ts = new TreeSet()
+		for (KeywordMethod km: this.getKeywordMethods(autType)) {
+			if (km.keywordGroup() == group) {
+				ts.add(km)
+			}
+		}
+		return ts
+	}
+
+	/**
+	 * 
+	 */
 	public SortedSet<KeywordMethod> keywordMethodsOf(AUTType autType, String group, String methodName) {
 		TreeSet<KeywordMethod> ts = new TreeSet()
 		for (KeywordMethod km: this.getKeywordMethods(autType)) {
@@ -172,12 +185,12 @@ public class KeywordBook {
 	public void injectJavadoc() {
 		for (AUTType autType : AUTType.values()) {
 			if (collection.keySet().contains(autType)) {
-				collection.put(autType, this.usingRetrieverInjectJavadocIntoKeywordMethodsOf(this, autType))
+				collection.put(autType, this.usingRetrieverInjectDescriptionIntoKeywordMethodsOf(this, autType))
 			}
 		}
 	}
 
-	private List<KeywordMethod> usingRetrieverInjectJavadocIntoKeywordMethodsOf(KeywordBook kb, AUTType autType) {
+	private List<KeywordMethod> usingRetrieverInjectDescriptionIntoKeywordMethodsOf(KeywordBook kb, AUTType autType) {
 		List<KeywordMethod> result = new ArrayList<>()
 		JavadocRetriever jr = new JavadocRetriever()
 		List<KeywordMethod> list = kb.getKeywordMethods(autType)
@@ -198,7 +211,7 @@ public class KeywordBook {
 		})
 		return result
 	}
-	
+
 	/**
 	 *
 	 */

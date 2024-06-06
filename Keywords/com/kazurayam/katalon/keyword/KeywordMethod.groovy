@@ -89,7 +89,7 @@ class KeywordMethod implements Comparable<KeywordMethod> {
 
 	String javadocUrl() {
 		StringBuilder sb = new StringBuilder()
-		sb.append(autType().getJavadocUrl())
+		sb.append(autType().getHttpJavadocUrl())
 		sb.append("#")
 		sb.append(fragment())
 	}

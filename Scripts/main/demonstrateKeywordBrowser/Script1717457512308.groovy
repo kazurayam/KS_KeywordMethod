@@ -6,7 +6,7 @@ import com.kazurayam.katalon.keyword.KeywordBrowser
 import com.kms.katalon.core.configuration.RunConfiguration
 
 /**
- * create the Keyword Browser represented as a web page at "projectdir/docs/KeywordBook.html"
+ * create the Keyword Browser represented as a web page at "projectdir/docs/keywor-browser/kbr.html"
  */
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 Path targetDir = projectDir.resolve("docs/keyword-browser")
