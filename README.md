@@ -70,30 +70,49 @@ SUM:                             2             11             18             60
 
 The initial snippet had 60 lines of Groovy codes.
 
-On the other hand, the `<projectdir>/cloc2.sh` showed to me:
+On the other hand, the `<projectdir>/cloc2.sh`, which includes the `Keywords` directory only ,showed to me:
 
 ```
 $ ./cloc2.sh
-      37 text files.
-      37 unique files.
+      15 text files.
+      15 unique files.
        0 files ignored.
 
-github.com/AlDanial/cloc v 2.00  T=0.03 s (1090.3 files/s, 37600.2 lines/s)
+github.com/AlDanial/cloc v 2.00  T=0.03 s (519.5 files/s, 51357.8 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Groovy                          37            243             68            965
+Groovy                          15            179            229           1075
 -------------------------------------------------------------------------------
-SUM:                            37            243             68            965
+SUM:                            15            179            229           1075
 -------------------------------------------------------------------------------
 ```
 
-The final code set includes 965 lines of Groovy.
+The final `Keywords` includes 1075 lines of Groovy. So, 1075 lines vs 60 lines. The final code set is almost **16 times bigger** than the original snippet.
 
-So, 965 lines vs 60 lines. The final code set is almost **16 times bigger** than the original snippet.
+However, this comparison is not very correct. I have write more codes for unit-testing. The `clic3.sh` scripts includes `Scripts` and `Include/scripts` directories not only `Keywords`. It showed me:
 
-I wasn't correct very much.
+```
+$ ./cloc3.sh
+      52 text files.
+      52 unique files.
+       0 files ignored.
 
+github.com/AlDanial/cloc v 2.00  T=0.06 s (828.6 files/s, 43834.4 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Groovy                          52            424            298           2029
+-------------------------------------------------------------------------------
+SUM:                            52            424            298           2029
+-------------------------------------------------------------------------------
+```
+
+2029 lines are 34 times larger than 60 lines.
+
+## Conclusion
+
+I wasn't correct very much in saying "10 times bigger"
 
 
 ## Dependencies

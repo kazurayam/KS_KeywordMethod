@@ -1,4 +1,4 @@
 #!/bin/sh
 
 
-cloc ./Keywords ./Scripts "./Include/scripts"
+cloc ./Keywords 
